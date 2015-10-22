@@ -170,6 +170,9 @@ pre {
     }
 }
 
+.hidden{
+    display: none;
+}
 
 
 /**
@@ -184,6 +187,43 @@ pre {
     }
 }
 
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+/**
+ * Buttons
+ */
+
+.m-btn{
+    border-radius: 3px;
+    border-color: $brand-color;
+    background-color: white;
+    font-family: $strong-font-family;
+    letter-spacing: $medium-kerning;
+    color: $brand-color;
+
+    &:hover{
+        background-color: $brand-color;
+        color: white;
+        cursor: pointer;
+    }
+}
 
 
 /**
@@ -201,4 +241,11 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+.heading{
+    font-family: $strong-font-family;
+    letter-spacing: $large-kerning;
+    text-align: center;
+    margin: ($spacing-unit * 2.5) $spacing-unit;
 }
