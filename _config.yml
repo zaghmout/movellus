@@ -3,11 +3,9 @@ title: Movellus Circuits
 email: your-email@domain.com
 copyright: MOVELLUS © 2015
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://00s.github.io/movellus/" # the base hostname & protocol for your site
+  
+baseurl: "/movellus" # the subpath of your site, e.g. /blog/
+url: "//00s.github.io/movellus/" # the base hostname & protocol for your site
 # host: 0.0.0.0
 twitter_username: movellus
 # Build settings
