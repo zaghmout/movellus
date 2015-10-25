@@ -323,35 +323,73 @@ pre {
   font-size: 20px; }
 
 .post-list {
+  display: block;
   margin-left: 0;
   list-style: none; }
   .post-list > li {
-    margin-bottom: 30px; }
+    cursor: pointer; }
+    .post-list > li a {
+      padding: 60px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: "Montserrat", sans-serif; }
+      .post-list > li a:hover {
+        text-decoration: none;
+        background-color: #e0dbe8; }
 
 .post-meta {
   font-size: 14px;
-  color: #828282; }
+  font-family: "Montserrat", sans-serif;
+  color: #562b96;
+  letter-spacing: 5.5px;
+  text-align: center;
+  display: block; }
 
 .post-link {
   display: block;
   font-size: 24px; }
+  @media screen and (max-width: 600px) {
+    .post-link {
+      font-size: 22px;
+      color: green; } }
+
+.rss-subscribe {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: 5.5px; }
+  .rss-subscribe p {
+    margin: 0; }
+  .rss-subscribe:hover {
+    text-decoration: none;
+    background-color: #3F206E;
+    color: white; }
 
 /**
  * Posts
  */
 .post-header {
-  margin-bottom: 30px; }
+  padding: 60px;
+  background-color: #e0dbe8; }
 
 .post-title {
+  text-align: center;
   font-size: 42px;
-  letter-spacing: -1px;
-  line-height: 1; }
+  margin: 0 auto 15px;
+  line-height: 1.4;
+  font-family: "Montserrat", sans-serif; }
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin: 30px 90px; }
+  .post-content p {
+    font-size: 18px;
+    line-height: 27px; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {
@@ -765,3 +803,17 @@ pre {
   height: 80%;
   margin: 0 auto;
   display: block; }
+
+.banner {
+  padding: 120px 20px;
+  background-color: #3F206E;
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif; }
+  .banner h1 {
+    font-size: 56px;
+    margin-bottom: 0;
+    letter-spacing: 5px; }
+  .banner p {
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 5px; }

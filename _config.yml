@@ -4,8 +4,8 @@ email: your-email@domain.com
 copyright: MOVELLUS © 2015
 description: > # this means to ignore newlines until "baseurl:"
   
-baseurl: "/movellus" # the subpath of your site, e.g. /blog/
-url: "//00s.github.io/movellus/" # the base hostname & protocol for your site
+# baseurl: "/movellus" # the subpath of your site, e.g. /blog/
+# url: "//00s.github.io/movellus/" # the base hostname & protocol for your site
 # host: 0.0.0.0
 twitter_username: movellus
 # Build settings
