@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Seamless integration, reduced power consumption, small silicon area and silicon verified IP and more.
 # host: 0.0.0.0
 baseurl: "/movellus/" # the subpath of your site, e.g. /blog/
-url: "http://00s.github.io" # the base hostname & protocol for your site
+url: "http://00s.github.io/movellus" # the base hostname & protocol for your site
 twitter_username: movellus
 # Build settings
 markdown: kramdown
