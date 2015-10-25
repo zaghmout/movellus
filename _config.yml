@@ -2,11 +2,11 @@
 title: Movellus Circuits
 email: your-email@domain.com
 copyright: MOVELLUS © 2015
-description : |
-    Movellus provides analog solutions with the flexibility of digital designs.
-    Seamless integration, reduced power consumption, small silicon area and silicon verified IP and more.
+description: > 
+  Movellus provides analog solutions with the flexibility of digital designs.
+  Seamless integration, reduced power consumption, small silicon area and silicon verified IP and more.
 twitter_username: movellus
-baseurl: "/movellus/" # the subpath of your site, e.g. /blog/
-url: "http://00s.github.io/movellus" # the base hostname & protocol for your site
+baseurl: "/movellus" # the subpath of your site, e.g. /blog/
+url: "http://00s.github.io/movellus/" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
