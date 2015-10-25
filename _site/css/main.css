@@ -792,17 +792,41 @@ pre {
 /**
 * HOME
 */
+.home .svg-icon {
+  width: 200px;
+  height: 200px; }
 .home #svg-movellus {
-  width: 300px;
-  height: 300px;
   margin: 0 auto -20px;
   display: block;
   min-width: 900px; }
+.home #line-one {
+  position: relative; }
+.home #clock {
+  top: 650px;
+  left: 80px; }
+.home #svg-clock {
+  position: absolute;
+  top: 600px;
+  left: 550px; }
 .home #svg-master-line {
   width: 80%;
   height: 80%;
   margin: 0 auto;
   display: block; }
+.home #line-one {
+  height: 1343px;
+  background-image: url("/images/home-line-1.svg"); }
+
+.icon-details {
+  width: 400px;
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  line-height: 27px; }
+  .icon-details h2 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 4px;
+    font-size: 24px; }
 
 .banner {
   padding: 120px 20px;

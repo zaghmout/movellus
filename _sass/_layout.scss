@@ -863,12 +863,30 @@
 */
 .home{
 
+    .svg-icon{
+        width: 200px;
+        height: 200px;
+    }
+
     #svg-movellus{
-        width: 300px;
-        height: 300px;
         margin: 0 auto -20px;
         display: block;
         min-width: 900px;
+    }
+
+    #line-one{
+        position: relative;
+    }
+
+    #clock{
+        top: 650px;
+        left: 80px;
+    }
+
+    #svg-clock{
+        position: absolute;
+        top: 600px;
+        left: 550px;
     }
 
     #svg-master-line{
@@ -877,6 +895,26 @@
         margin: 0 auto;
         display: block;
     }
+
+    #line-one{
+        height: 1343px;
+        background-image: url('/images/home-line-1.svg');
+    }
+}
+
+.icon-details{
+    width: 400px;
+    position: absolute;
+
+
+    h2{
+        font-family: $strong-font-family;
+        letter-spacing: $medium-kerning;
+        font-size: 24px;
+    }
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 
