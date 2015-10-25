@@ -158,7 +158,7 @@ function initMap() {
     position: movLatLng,
     map: map,
     animation: google.maps.Animation.DROP,
-    icon: ' {{ site.url }} /images/purple-marker.png',
+    icon: {{'/images/purple-marker.png' | prepend site.baseurl }},
     title: 'Movellus'
   });
 }
