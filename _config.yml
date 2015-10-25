@@ -6,8 +6,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Movellus provides analog solutions with the flexibility of digital designs.
   Seamless integration, reduced power consumption, small silicon area and silicon verified IP and more.
 <<<<<<< HEAD
-baseurl: "/movellus/" # the subpath of your site, e.g. /blog/
-url: "//00s.github.io" # the base hostname & protocol for your site
+baseurl: "/movellus" # the subpath of your site, e.g. /blog/
+url: "http://00s.github.io/movellus/" # the base hostname & protocol for your site
 # host: 0.0.0.0
 twitter_username: movellus
 # Build settings
