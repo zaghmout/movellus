@@ -2,6 +2,7 @@
  * Site header
  */
 .site-header {
+    z-index: 2;
     padding: 10px; 
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
@@ -364,7 +365,6 @@
 
     }
 }
-
 .center{
     max-width: 700px;
     margin: 0 auto;
@@ -414,13 +414,17 @@
 
 #products{
     
-    overflow-x: scroll;
+    .prod-wrapper{
+        overflow-x: scroll;
+        
+    }
+
 
     #products-names{
         
         list-style-type: none;
         margin: 0 * 2 auto $spacing-unit;
-        max-width: 960px;
+        width: 960px;
 
         li{
             font-family: $strong-font-family;

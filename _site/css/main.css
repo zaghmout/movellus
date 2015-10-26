@@ -186,6 +186,7 @@ pre {
  * Site header
  */
 .site-header {
+  z-index: 2;
   padding: 10px;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
@@ -469,37 +470,37 @@ pre {
 /**
 * Products
 */
-#products {
+#products .prod-wrapper {
   overflow-x: scroll; }
-  #products #products-names {
-    list-style-type: none;
-    margin: 0 auto 30px;
-    max-width: 960px; }
-    #products #products-names li {
-      font-family: "Montserrat", sans-serif;
-      margin: 4px;
-      float: left;
-      font-size: 16px;
-      font-weight: normal;
-      border-style: solid;
-      border-radius: 3px;
-      height: 180px;
-      width: 180px;
-      border-width: 1px;
-      overflow: hidden;
-      word-break: normal; }
-      #products #products-names li:hover {
-        cursor: pointer;
-        background-color: #3F206E;
+#products #products-names {
+  list-style-type: none;
+  margin: 0 auto 30px;
+  width: 960px; }
+  #products #products-names li {
+    font-family: "Montserrat", sans-serif;
+    margin: 4px;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    border-style: solid;
+    border-radius: 3px;
+    height: 180px;
+    width: 180px;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal; }
+    #products #products-names li:hover {
+      cursor: pointer;
+      background-color: #3F206E;
+      color: white;
+      border-radius: 4px; }
+      #products #products-names li:hover a {
         color: white;
-        border-radius: 4px; }
-        #products #products-names li:hover a {
-          color: white;
-          text-decoration: none; }
-      #products #products-names li a div {
-        height: 100%;
-        text-align: right;
-        padding: 70px 20px 0; }
+        text-decoration: none; }
+    #products #products-names li a div {
+      height: 100%;
+      text-align: right;
+      padding: 70px 20px 0; }
 
 #products-details .prod {
   max-width: 100vw; }
