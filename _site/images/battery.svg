@@ -1,0 +1,26 @@
+<svg width="350px" height="350px" viewBox="0 0 350 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="MOVELLUS-DESKTOP-2" sketch:type="MSArtboardGroup" transform="translate(-1251.000000, -2543.000000)">
+            <g id="BATTERY-4" sketch:type="MSLayerGroup" transform="translate(1251.000000, 2543.000000)">
+                <circle id="Base-Badge" stroke="#3F206E" stroke-width="3" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="175" cy="175" r="175"></circle>
+                <g id="Base-Badge-+-Negative-Space-2"></g>
+                <g id="BATTERY-2" transform="translate(124.444444, 68.055556)" sketch:type="MSShapeGroup">
+                    <path d="M72.9166667,1.94444444 L218.75,146.805556 C218.75,146.805556 214.861111,188.611111 170.138889,232.361111 C125.416667,276.111111 75.8333334,278.055556 75.8333334,278.055556 L6.80555561,209.027778" id="shadow" fill="#E0DBE8"></path>
+                    <g id="Battery" stroke="#3F206E" stroke-width="3" fill="#FFFFFF">
+                        <rect id="body" x="28.13945" y="0" width="48.585417" height="48.6496931" rx="10"></rect>
+                        <rect id="head" x="0" y="24.3248465" width="104.009434" height="189.564042" rx="20"></rect>
+                    </g>
+                    <g id="stripes" transform="translate(52.500000, 119.097222) rotate(-180.000000) translate(-52.500000, -119.097222) translate(12.638889, 36.944444)">
+                        <path d="M0.972222222,148.732216 L79.7222222,133.194444 L79.7222222,154.266436 C79.7222222,159.791244 75.2483732,164.269986 69.7285066,164.269986 L10.9659379,164.269986 C5.44656113,164.269986 0.972222222,159.796665 0.972222222,154.275903 L0.972222222,148.732216 Z" id="stripe1" fill="#3F206E"></path>
+                        <path d="M0.972222222,119.583333 L79.7222222,104.027778 L79.7222222,133.194444 L0.972222222,148.750001 L0.972222222,119.583333 Z" id="stripe2" fill="#654D8B"></path>
+                        <path d="M0.972222222,89.4444445 L79.7222222,73.8888889 L79.7222222,104.027777 L0.972222222,119.583334 L0.972222222,89.4444445 Z" id="stripe3" fill="#8C79A8"></path>
+                        <path d="M0.972222222,59.3055556 L1.40346854,59.2203711 L79.7222222,43.75 L79.7222222,73.8888881 L0.972222222,89.4444455 L0.972222222,59.3055556 Z" id="stripe4" fill="#B2A6C5"></path>
+                        <path d="M0.972222222,29.2259485 L79.7222222,13.1012873 L79.7222222,43.7499991 L0.972222222,59.3055565 L0.972222222,29.2259485 Z" id="stripe5" fill="#C1B8D1"></path>
+                        <path d="M0.972222222,9.99659361 C0.972222222,4.47562745 5.44607129,7.67723309e-08 10.9659379,7.35514139e-08 L69.7285066,3.92626577e-08 C75.2478833,3.60420264e-08 79.7222217,4.48385099 79.7222219,9.99620602 C79.7222219,9.99620602 79.722221,1.18723435 79.7222222,13.1012873 L0.972222222,29.2259485 C0.972222222,29.2259485 0.972222222,9.99659361 0.972222222,9.99659361 Z" id="stripe6" fill="#D1CADC"></path>
+                    </g>
+                </g>
+                <circle id="Base-Badge-5" stroke="#3F206E" stroke-width="3" sketch:type="MSShapeGroup" cx="175" cy="175" r="175"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="350px" height="350px" viewBox="0 0 350 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>CHIP 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="MOVELLUS-DESKTOP-2" sketch:type="MSArtboardGroup" transform="translate(-758.000000, -2046.000000)">
+            <g id="CHIP-4" sketch:type="MSLayerGroup" transform="translate(758.000000, 2046.000000)">
+                <path d="M175,350 C271.649831,350 350,271.649831 350,175 C350,78.3501688 271.649831,0 175,0 C78.3501688,0 0,78.3501688 0,175 C0,271.649831 78.3501688,350 175,350 Z" id="Base-Badge-2" stroke="#3F206E" stroke-width="3" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M95.2777775,140 L79.7222219,153.611112 L95.2777775,169.166667 L79.7222219,182.777778 L95.2777775,198.333334 L79.7222219,211.944445 L95.2777775,227.5 L79.7222219,241.111112 L103.055555,264.444445 C103.055555,264.444445 106.064317,276.44527 106.702377,277.08333 C133.411282,303.792235 178.888889,349.027778 178.888889,349.027778 C178.888889,349.027778 262.5,340.277778 303.333333,292.638889 C344.166667,245 349.027778,181.805556 349.027778,181.805556 L240.138889,72.9166671 L79.7222219,124.444445 L95.2777775,140 Z" id="SHADOW" opacity="0.150000006" fill="#523C64" sketch:type="MSShapeGroup"></path>
+                <g id="Group" transform="translate(78.750000, 110.833333)" stroke="#523C64" stroke-width="3" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-365" x="0" y="0" width="30.1388889" height="15.5555556" rx="5"></rect>
+                    <rect id="Rectangle-366" x="0" y="29.1666667" width="30.1388889" height="15.5555556" rx="5"></rect>
+                    <rect id="Rectangle-368" x="0" y="58.3333333" width="30.1388889" height="15.5555556" rx="5"></rect>
+                    <rect id="Rectangle-367" x="0" y="87.5" width="30.1388889" height="15.5555556" rx="5"></rect>
+                    <rect id="Rectangle-370" x="0" y="116.666667" width="30.1388889" height="15.5555556" rx="5"></rect>
+                </g>
+                <g id="Group-2" transform="translate(239.166667, 110.833333)" stroke="#523C64" stroke-width="3" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-365" x="0" y="0" width="30.1388889" height="15.5555556" rx="5"></rect>
+                    <rect id="Rectangle-366" x="0" y="29.1666667" width="30.1388889" height="15.5555556" rx="5"></rect>
+                    <rect id="Rectangle-368" x="0" y="58.3333333" width="30.1388889" height="15.5555556" rx="5"></rect>
+                    <rect id="Rectangle-367" x="0" y="87.5" width="30.1388889" height="15.5555556" rx="5"></rect>
+                    <rect id="Rectangle-370" x="0" y="116.666667" width="30.1388889" height="15.5555556" rx="5"></rect>
+                </g>
+                <rect id="BOARD" stroke="#3F206E" stroke-width="3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="101.111111" y="68.0555556" width="145.833333" height="214.861111" rx="20"></rect>
+                <g id="GRADIENT" transform="translate(141.944444, 212.916667)" sketch:type="MSShapeGroup">
+                    <path d="M2.19920069e-10,10.0000056 C2.47944422e-10,4.47715502 4.48598161,-1.02581172e-12 9.99399925,8.91407423e-13 L82.3671136,2.60828881e-11 C87.886647,2.80041157e-11 92.3611129,4.47187497 92.3611129,10.0000056 L92.3611129,46.3888833 C92.3611129,51.9117339 87.8751313,56.3888889 82.3671136,56.3888889 L9.99399925,56.3888889 C4.47446588,56.3888889 7.22247059e-12,51.9170139 3.52736164e-11,46.3888833 L2.19920069e-10,10.0000056 Z" id="outer" fill="#D1CADC"></path>
+                    <rect id="mid-outer" fill="#B2A6C5" x="18.2490893" y="11.1931491" width="74.1120219" height="45.1856649" rx="15"></rect>
+                    <rect id="middle" fill="#8C79A8" x="35.0478142" y="21.0161197" width="57.3132969" height="35.3626943" rx="10"></rect>
+                    <rect id="mid-inner" fill="#654D8B" x="52.8346995" y="29.8567933" width="39.5264117" height="26.5220207" rx="9"></rect>
+                    <path d="M68.6452641,47.6869134 C68.6452641,43.2646869 72.2214438,39.679764 76.6413053,39.679764 L92.3611111,39.679764 L92.3611111,48.029289 C92.3611111,52.6406044 88.6294211,56.378814 84.0164679,56.378814 L68.6452641,56.378814 L68.6452641,47.6869134 Z" id="inner" fill="#3F206E"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
