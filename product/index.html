@@ -4,7 +4,6 @@ title: PRODUCTS
 ---
 
 <div class="page-content">
-    <div class="wrapper">
 
     <h1 class="heading">
         PRODUCTS
@@ -12,36 +11,45 @@ title: PRODUCTS
 
     <div id="products">
 
-        <table id="products-names">
-          <tr>
-            <th>
-                <a href="{{ site.url }}/product/#prod-1">
-                    CLOCK GENERATOR / PLLs
+        <ul id="products-names" class="cf">
+            <li>
+                <a href="{{ site.baseurl }}/product/#prod-1">
+                    <div>
+                        CLOCK GENERATOR / PLLs
+                    </div>
                 </a>
-            </th>
-            <th>
-                <a href="{{ site.url }}/product/#prod-2">
-                    LOCKED LOOPS
+            </li>
+            <li>
+                <a href="{{ site.baseurl }}/product/#prod-2">
+                    <div>
+                        LOCKED LOOPS
+                    </div>
                 </a>
-            </th>
-            <th>
-                <a href="{{ site.url }}/product/#prod-3">
-                    PROGRAMMABLE OSCILLATORS
+            </li>
+            <li>
+                <a href="{{ site.baseurl }}/product/#prod-3">
+                    <div>
+                        PROGRAMMABLE OSCILLATORS
+                    </div>
                 </a>
-            </th>
-            <th>
-                <a href="{{ site.url }}/product/#prod-4">
-                    PULSE WIDTH MODULATORS
+            </li>
+            <li>
+                <a href="{{ site.baseurl }}/product/#prod-4">
+                    <div>
+                        PULSE WIDTH MODULATORS
+                    </div>
                 </a>
-            </th>
-            <th>
-                <a href="{{ site.url }}/product/#prod-5">
-                    NEAR THRESHOLD ANALOG
+            </li>
+            <li>
+                <a href="{{ site.baseurl }}/product/#prod-5">
+                    <div>
+                        NEAR THRESHOLD ANALOG
+                    </div>
                 </a>
-            </th>
-          </tr>
-        </table>
+            </li>
+        </ul>
 
+    <div class="wrapper">
         <div id="products-details">
 
             <!-- CLOCK GENERATOR / PLLs -->
@@ -72,6 +80,8 @@ title: PRODUCTS
                 <p class="prod-desc">
                     We offer a wide range of digitally programmable LC & ring oscillators. Our oscillators are compact and self contained that can be used in a number of applications. The current selection offers frequency ranges between 100kHz to 2.7 GHz in a number of process technologies.
                 </p>
+                <div class="tbl-wrapper">
+                    
                 <table class="prod-table">
                     <thead>
                         <tr>
@@ -153,6 +163,9 @@ title: PRODUCTS
                         </tr>
                     </tbody>
                 </table>
+
+                </div>
+
             </div>
 
             <!-- PULSE WIDTH MODULATORS -->
@@ -163,46 +176,48 @@ title: PRODUCTS
                 <p class="prod-desc">
                     We offer general purpose, high precision pulse width modulators (PWM)s for a variety of applications.  Our digitally controlled PWMs offer 5% to 50% duty cycle control with 10 bit resolution.
                 </p>
-                <table class="prod-table">
-                    <thead>
-                        <tr>
-                            <th class="tg-e3zv footable-first-column">
-                                Foundry
-                            </th>
-                            <th class="tg-e3zv">
-                                Process
-                            </th>
-                            <th class="tg-e3zv" data-hide="phone">
-                                Input&nbsp;Frequency
-                            </th>
-                            <th class="tg-e3zv" data-hide="phone">
-                                Applications
-                            </th>
-                            <th class="tg-e3zv footable-last-column" data-hide="phone">
-                                Datasheet
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr style="display: table-row;">
-                            <td class="tg-031e footable-first-column">
-                                TSMC
-                            </td>
-                            <td class="tg-031e">
-                                CMN65GP
-                            </td>
-                            <td class="tg-031e">
-                                300-500MHz
-                            </td>
-                            <td class="tg-031e">
-                                General <br> Purpose PWM
-                            </td>
-                            <td class="tg-031e footable-last-column">
-                                Datasheet
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="tbl-wrapper">
+                    <table class="prod-table">
+                        <thead>
+                            <tr>
+                                <th class="tg-e3zv footable-first-column">
+                                    Foundry
+                                </th>
+                                <th class="tg-e3zv">
+                                    Process
+                                </th>
+                                <th class="tg-e3zv" data-hide="phone">
+                                    Input&nbsp;Frequency
+                                </th>
+                                <th class="tg-e3zv" data-hide="phone">
+                                    Applications
+                                </th>
+                                <th class="tg-e3zv footable-last-column" data-hide="phone">
+                                    Datasheet
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="display: table-row;">
+                                <td class="tg-031e footable-first-column">
+                                    TSMC
+                                </td>
+                                <td class="tg-031e">
+                                    CMN65GP
+                                </td>
+                                <td class="tg-031e">
+                                    300-500MHz
+                                </td>
+                                <td class="tg-031e">
+                                    General <br> Purpose PWM
+                                </td>
+                                <td class="tg-031e footable-last-column">
+                                    Datasheet
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
             <!-- NEAR THRESHOLD ANALOG -->

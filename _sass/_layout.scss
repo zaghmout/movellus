@@ -399,18 +399,20 @@
 
     #products-names{
         
-        border-collapse: separate;
-        border-spacing: 12px;
+        list-style-type: none;
+        margin: 0 * 2 auto $spacing-unit;
+        max-width: 960px;
 
-        th{
+        li{
             font-family: $strong-font-family;
-            font-size:14px;
+            margin: 4px;
+            float: left;
+            font-size:16px;
             font-weight:normal;
-            padding: 0 20px ;
             border-style:solid;
             border-radius: 3px;
-            height: 160px;
-            width: 160px;
+            height: 180px;
+            width: 180px;
             border-width: 1px;
             overflow:hidden;
             word-break:normal;
@@ -424,6 +426,17 @@
                 a{
                     color: white;
                     text-decoration: none;
+
+                }
+            }
+
+            a{
+                div{
+                    height: 100%;
+                    text-align: right;
+                    padding: 70px 20px 0;
+                    
+
                 }
             }
         }
@@ -432,9 +445,11 @@
 
 
 #products-details{
+
+
     .prod{
-        // display: none;
-        // padding-bottom: $spacing-unit;
+
+        max-width: 100vw;
 
         .prod-name{
             font-family: $strong-font-family;
@@ -450,10 +465,15 @@
             line-height: $base-line-height * 1.2;
         }
 
+        .tbl-wrapper{
+
+            overflow-x: scroll; 
+
+        }
         .prod-table{
 
+
             border-collapse: collapse;
-            // border-spacing: 12px;
 
             text-align: center;
             margin: ($spacing-unit) auto ($spacing-unit * 2);
