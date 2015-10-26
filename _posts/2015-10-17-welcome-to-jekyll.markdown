@@ -8,6 +8,8 @@ categories: movellus news
 
 Ann Arbor-based Movellus Circuits won the grand prize of $25,000 Tuesday as the best emerging company at the 14th annual Great Lakes Entrepreneurs Quest business plan competition at the Marriott Eagle Crest resort in Ypsilanti…
 
- [READ MORE][more]
+{:refdef: .read-more }
+ [+ READ MORE][more]
+{: refdef}
 
  [more]:      http://www.crainsdetroit.com/article/20140617/NEWS/140619863/ann-arbors-movellus-circuits-named-best-emerging-company-in-gleq

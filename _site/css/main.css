@@ -789,6 +789,11 @@ pre {
   100% {
     opacity: 1;
     transform: translateY(0); } }
+.read-more {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 4px;
+  font-size: 16px !important; }
+
 /**
 * HOME
 */
@@ -824,7 +829,7 @@ pre {
   position: relative; }
 .home #svg-chip {
   top: 1220px;
-  left: 72px; }
+  left: 73px; }
 .home #svg-clock {
   top: 600px;
   left: 550px; }
@@ -832,14 +837,13 @@ pre {
   top: 260px;
   left: 240px; }
 .home #svg-battery {
-  left: 490px;
+  left: 489px;
   top: -100px; }
 .home #svg-tangram {
   top: 790px;
   left: 240px; }
 .home #svg-graph {
-  top: 1150px;
-  left: -1px; }
+  top: 1150px; }
 .home #svg-shield {
   left: -98px;
   top: -198px; }
@@ -850,18 +854,18 @@ pre {
   display: block; }
 .home #line-one {
   height: 1343px;
-  background-image: url("/movellus/images/home-line-1.svg");
+  background-image: url("/images/home-line-1.svg");
   background-repeat: no-repeat; }
 .home #line-two-three {
   height: 1434px;
   width: 692px;
   margin: 300px auto 0;
-  background-image: url("/movellus/images/home-line-2-3.svg");
+  background-image: url("/images/home-line-2-3.svg");
   background-repeat: no-repeat;
   position: relative; }
 .home #line-four {
   height: 434px;
-  width: 3px;
+  width: 2px;
   margin: 250px auto 0;
   position: relative;
   background: #3f206e;

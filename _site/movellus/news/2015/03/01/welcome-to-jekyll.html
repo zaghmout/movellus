@@ -107,7 +107,7 @@
             <article class="post-content">
                 <p>Ann Arbor-based Movellus Circuits won the grand prize of $25,000 Tuesday as the best emerging company at the 14th annual Great Lakes Entrepreneurs Quest business plan competition at the Marriott Eagle Crest resort in Ypsilanti…</p>
 
-<p><a href="http://www.crainsdetroit.com/article/20140617/NEWS/140619863/ann-arbors-movellus-circuits-named-best-emerging-company-in-gleq">READ MORE</a></p>
+<p class="read-more"><a href="http://www.crainsdetroit.com/article/20140617/NEWS/140619863/ann-arbors-movellus-circuits-named-best-emerging-company-in-gleq">+ READ MORE</a></p>
 
 
             </article>
@@ -159,9 +159,45 @@
 
     
 
-    <!-- Javascripts at the bottom to not block rendering -->
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300|Montserrat' rel='stylesheet' type='text/css'>
-  </body>
+<!-- Javascripts at the bottom to not block rendering -->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300|Montserrat' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript">
+    
+    $(function(){
+        $('.btn-more').on('click', function(e){
+            e.preventDefault();
+            $(this).find('span').toggle("visible invisible");
+            $(this).parent().find('p').find('span').toggle("visible invisible")
+        })
+    });
+
+</script>
+<script>
+$(function (){
+    $('#products-names th').bind('click', function(e){
+        $(this).find('a').click();
+    })
+});
+
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+                       && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      var distanceFromTop = 50
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top - distanceFromTop
+        }, 800);
+        return false;
+      }
+    }
+  });
+});
+</script>
+</body>
 
 </html>
