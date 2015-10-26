@@ -422,6 +422,16 @@ pre {
     text-align: center;
     padding: 15px;
     border-left: 1px dashed black; }
+    @media screen and (max-width: 710px) {
+      #contact-details .contact-col {
+        width: 95vw;
+        max-width: 420px;
+        float: none;
+        margin: 0 auto;
+        border: 0;
+        border-bottom: 1px dashed black;
+        border-right: 0 !important;
+        padding: 7.5px; } }
     #contact-details .contact-col:last-child {
       border-right: 1px dashed black; }
     #contact-details .contact-col .contact-icon {
@@ -438,6 +448,12 @@ pre {
   margin-bottom: 30px;
   border-radius: 3px;
   border: 1px #3F206E solid; }
+  @media screen and (max-width: 710px) {
+    #contact-form * {
+      width: 95vw !important;
+      max-width: 420px;
+      float: none;
+      margin: 10px 2vw !important; } }
 #contact-form textarea {
   height: 150px; }
 #contact-form .small-field {
