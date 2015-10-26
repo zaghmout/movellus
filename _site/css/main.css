@@ -425,13 +425,14 @@ pre {
     @media screen and (max-width: 710px) {
       #contact-details .contact-col {
         width: 95vw;
-        max-width: 420px;
+        max-width: 200px;
         float: none;
         margin: 0 auto;
         border: 0;
         border-bottom: 1px dashed black;
         border-right: 0 !important;
-        padding: 7.5px; } }
+        padding: 7.5px;
+        padding-bottom: 20px; } }
     #contact-details .contact-col:last-child {
       border-right: 1px dashed black; }
     #contact-details .contact-col .contact-icon {
