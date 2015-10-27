@@ -32,7 +32,7 @@
 
 .site-title {
     font-size: 26px;
-    line-height: 56px;
+    line-height: 50px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
@@ -55,14 +55,13 @@
     .nav-link {
         color: $text-color;
         line-height: $base-line-height;
-        padding: 20px 0 16px;
+        padding: 20px 6px 16px;
         // margin: 0 7px;
         border-bottom: 4px solid white;
 
         transition: border-bottom-color .4s ease;
         -webkit-transition: border-bottom-color .4s ease;
 
-        width: 120px; float: left;
         text-align: center;
 
         &:hover{
@@ -194,10 +193,11 @@
     padding-left: $spacing-unit / 2;
 }
 .center-col{
+
     text-align: center;
     width: 310px;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto 0;
     float: none !important;
     padding: 0;
     font-size: $small-font-size;
@@ -245,7 +245,7 @@
  * Page content
  */
 .page-content {
-    padding-top: 77px;
+    padding-top: 57px;
 }
 
 .page-heading {

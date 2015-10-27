@@ -207,7 +207,7 @@ pre {
 
 .site-title {
   font-size: 26px;
-  line-height: 56px;
+  line-height: 50px;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
@@ -223,12 +223,10 @@ pre {
   .site-nav .nav-link {
     color: #3F206E;
     line-height: 1.5;
-    padding: 20px 0 16px;
+    padding: 20px 6px 16px;
     border-bottom: 4px solid white;
     transition: border-bottom-color .4s ease;
     -webkit-transition: border-bottom-color .4s ease;
-    width: 120px;
-    float: left;
     text-align: center; }
     .site-nav .nav-link:hover {
       border-bottom-color: #3F206E;
@@ -328,7 +326,7 @@ pre {
   text-align: center;
   width: 310px;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto 0;
   float: none !important;
   padding: 0;
   font-size: 14px; }
@@ -363,7 +361,7 @@ pre {
  * Page content
  */
 .page-content {
-  padding-top: 77px; }
+  padding-top: 57px; }
 
 .page-heading {
   font-size: 20px; }
