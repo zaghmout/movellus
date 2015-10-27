@@ -860,86 +860,103 @@ pre {
 /**
 * HOME
 */
-.home .svg-icon {
-  width: 200px;
-  height: 200px; }
-  .home .svg-icon:not(#svg-movellus) {
-    position: absolute; }
-.home #svg-movellus {
-  margin: 0 auto -20px;
-  display: block;
-  min-width: 900px; }
-.home #line-one {
-  position: relative; }
-.home #clock {
-  top: 650px;
-  left: 80px; }
-.home #chip {
-  top: 1260px;
-  left: 300px; }
-.home #battery {
-  top: -50px;
-  left: 70px;
-  width: 360px; }
-.home #scalable {
-  top: 550px;
-  left: 145px; }
-.home #graph {
-  top: 1190px;
-  left: 260px; }
-.home #shield {
-  margin: 60px auto 30px;
-  position: relative; }
-.home #svg-chip {
-  top: 1220px;
-  left: 73px; }
-.home #svg-clock {
-  top: 600px;
-  left: 550px; }
-.home #svg-spiral {
-  top: 260px;
-  left: 240px; }
-.home #svg-battery {
-  left: 491px;
-  top: -100px; }
-.home #svg-tangram {
-  top: 790px;
-  left: 240px; }
-.home #svg-graph {
-  top: 1150px; }
-.home #svg-shield {
-  left: -98px;
-  top: -198px; }
-.home #svg-master-line {
-  width: 80%;
-  height: 80%;
-  margin: 0 auto;
-  display: block; }
-.home #line-one {
-  height: 1343px;
-  background-image: url("/movellus/images/home-line-1.svg");
-  background-repeat: no-repeat; }
-.home #line-two-three {
-  height: 1434px;
-  width: 692px;
-  margin: 300px auto 0;
-  background-image: url("/movellus/images/home-line-2-3.svg");
-  background-repeat: no-repeat;
-  position: relative; }
-.home #line-four {
-  height: 434px;
-  width: 3.5px;
-  margin: 250px auto 0;
-  position: relative;
-  background: #3f206e;
-  background: -moz-linear-gradient(top, #3f206e 0%, white 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #3f206e), color-stop(100%, white));
-  background: -webkit-linear-gradient(top, #3f206e 0%, white 100%);
-  background: -o-linear-gradient(top, #3f206e 0%, white 100%);
-  background: -ms-linear-gradient(top, #3f206e 0%, white 100%);
-  background: linear-gradient(to bottom, #3f206e 0%, white 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f206e', endColorstr='#ffffff', GradientType=0 ); }
+.home {
+  overflow-x: hidden; }
+  .home .svg-icon {
+    width: 200px;
+    height: 200px; }
+    .home .svg-icon:not(#svg-movellus) {
+      position: absolute; }
+  .home #line-one {
+    position: relative; }
+  .home #clock {
+    top: 650px;
+    left: 80px; }
+  .home #chip {
+    top: 1260px;
+    left: 300px; }
+  .home #battery {
+    top: -50px;
+    left: 70px;
+    width: 360px; }
+  .home #scalable {
+    top: 550px;
+    left: 145px; }
+  .home #graph {
+    top: 1190px;
+    left: 260px; }
+  .home #shield {
+    margin: 60px auto 30px;
+    position: relative; }
+  .home #svg-movellus {
+    margin: 0 auto -20px;
+    display: block;
+    min-width: 200px; }
+  .home #svg-chip {
+    top: 1220px;
+    left: 73px; }
+  .home #svg-clock {
+    top: 600px;
+    left: 550px; }
+  .home #svg-spiral {
+    top: 260px;
+    left: 240px; }
+  .home #svg-battery {
+    left: 491px;
+    top: -100px; }
+  .home #svg-tangram {
+    top: 790px;
+    left: 240px; }
+  .home #svg-graph {
+    top: 1150px; }
+  .home #svg-shield {
+    left: -98px;
+    top: -198px; }
+  .home #svg-master-line {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: block; }
+  .home #line-one {
+    height: 1343px;
+    width: 900px;
+    margin: 0 auto;
+    background-image: url("/movellus/images/home-line-1.svg");
+    background-repeat: no-repeat; }
+  .home #line-two-three {
+    height: 1434px;
+    width: 692px;
+    margin: 300px auto 0;
+    background-image: url("/movellus/images/home-line-2-3.svg");
+    background-repeat: no-repeat;
+    position: relative; }
+  .home #line-four {
+    height: 434px;
+    width: 3.5px;
+    margin: 250px auto 0;
+    position: relative;
+    background: #3f206e;
+    background: -moz-linear-gradient(top, #3f206e 0%, white 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #3f206e), color-stop(100%, white));
+    background: -webkit-linear-gradient(top, #3f206e 0%, white 100%);
+    background: -o-linear-gradient(top, #3f206e 0%, white 100%);
+    background: -ms-linear-gradient(top, #3f206e 0%, white 100%);
+    background: linear-gradient(to bottom, #3f206e 0%, white 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f206e', endColorstr='#ffffff', GradientType=0 ); }
 
+@media (max-width: 920px) {
+  .home .heading {
+    font-size: 18px;
+    letter-spacing: 2px; }
+
+  #svg-movellus {
+    width: 160px !important;
+    height: 160px !important;
+    margin-bottom: -6px !important; }
+
+  #line-one {
+    width: 300px !important;
+    background-image: url("/movellus/images/home-line-1-small.svg") !important; } }
 .icon-details {
   width: 400px;
   position: absolute;

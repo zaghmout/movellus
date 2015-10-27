@@ -952,19 +952,13 @@
 * HOME
 */
 .home{
-
+    overflow-x: hidden;
     .svg-icon{
         width: 200px;
         height: 200px;
         &:not(#svg-movellus){
             position: absolute;
         }
-    }
-
-    #svg-movellus{
-        margin: 0 auto -20px;
-        display: block;
-        min-width: 900px;
     }
 
     #line-one{
@@ -1000,6 +994,13 @@
     #shield{
         margin: $spacing-unit * 2 auto $spacing-unit;
         position: relative;
+    }
+
+
+    #svg-movellus{
+        margin: 0 auto -20px;
+        display: block;
+        min-width: 200px;
     }
 
     #svg-chip{
@@ -1045,6 +1046,8 @@
 
     #line-one{
         height: 1343px;
+        width: 900px;
+        margin: 0 auto;
         background-image: url('/movellus/images/home-line-1.svg');
         background-repeat: no-repeat;
     }
@@ -1071,10 +1074,24 @@
         background: -ms-linear-gradient(top, rgba(63,32,110,1) 0%, rgba(255,255,255,1) 100%);
         background: linear-gradient(to bottom, rgba(63,32,110,1) 0%, rgba(255,255,255,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f206e', endColorstr='#ffffff', GradientType=0 );
-
-
     }
+}
 
+@media( max-width: 920px ) {
+
+    .home .heading{
+        font-size: 18px;
+        letter-spacing: $medium-kerning / 2;
+    }
+    #svg-movellus{
+        width: 160px !important;
+        height: 160px !important;
+        margin-bottom: -6px !important;
+    }
+    #line-one{
+        width: 300px !important;
+        background-image: url('/movellus/images/home-line-1-small.svg') !important;
+    }
 }
 
 .icon-details{
