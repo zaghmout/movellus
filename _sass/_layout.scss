@@ -110,12 +110,43 @@
     }
 }
 
+/**
+ * Master Button
+ */
+
+#master-btn{
+    display: block;
+    text-align: center;
+    padding: 15px $spacing-unit;
+    border-radius: 5px;
+    margin: 20px auto 100px;
+    color: $brand-color;
+    width: 200px;
+    border: 1px solid $brand-color;
+    font-family: $strong-font-family;
+    
+    -webkit-transition: background-color 0.4s ease;
+            transition: background-color 0.4s ease;
+
+    -webkit-transition: color 0.6s ease-out;
+            transition: color 0.6s ease-out;
+
+    &:hover{
+        text-decoration: none;
+        background-color: $brand-color;
+        color: white;
+
+         -webkit-transition: background-color 1s;
+
+    }
+}
+
 
 /**
  * Site footer
  */
 .site-footer {
-    padding: ($spacing-unit * 5) $spacing-unit ;
+    padding: ($spacing-unit * 2) $spacing-unit ;
     background: rgba(255,255,255,1);
     background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(234,228,240,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(234,228,240,1)));
@@ -157,6 +188,15 @@
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+}
+.center-col{
+    text-align: center;
+    width: 310px;
+    display: block;
+    margin: 0 auto;
+    float: none !important;
+    padding: 0;
+    font-size: $small-font-size;
 }
 
 .footer-col-1 {
@@ -1070,14 +1110,14 @@
         height: 1343px;
         width: 900px;
         margin: 0 auto;
-        background-image: url('/movellus/images/home-line-1.svg');
+        background-image: url('/images/home-line-1.svg');
         background-repeat: no-repeat;
     }
     #line-two-three{
         height: 1434px;
         width: 692px;
         margin: 300px auto 0;
-        background-image: url('/movellus/images/home-line-2-3.svg');
+        background-image: url('/images/home-line-2-3.svg');
         background-repeat: no-repeat;
         position: relative;
     }
@@ -1115,7 +1155,7 @@
         #line-one{
             height: 1000px;
             width: 300px;
-            background-image: url('/movellus/images/home-line-1-small.svg');
+            background-image: url('/images/home-line-1-small.svg');
         }
         #svg-movellus{
             margin-bottom: -2px;
@@ -1138,7 +1178,7 @@
 
         // line 2 + 3
         #line-two-three{
-            background-image: url('/movellus/images/home-line-2-3-small.svg');
+            background-image: url('/images/home-line-2-3-small.svg');
             width: 310px;
             margin-top: 220px;
         }
