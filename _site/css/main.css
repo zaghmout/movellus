@@ -693,10 +693,10 @@ pre {
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out; }
 
-@media (max-width: 830px) {
+@media (max-width: 885px) {
   #happened {
     width: 100vw;
-    height: 80px;
+    height: 100px;
     position: relative;
     overflow-x: hidden; }
 
@@ -708,7 +708,26 @@ pre {
     left: 50%;
     height: 100px;
     margin-left: -415px;
-    /* half of the width */ } }
+    /* half of the width */ }
+
+  #details ul {
+    margin: 0; }
+
+  .align-right {
+    padding: 0 !important; }
+    .align-right * {
+      float: none !important;
+      text-align: left !important; }
+
+  .half-w, .third-w {
+    float: none !important;
+    width: 400px !important;
+    max-width: 92% !important;
+    margin: 30px auto; }
+
+  .person {
+    padding-left: 16px !important;
+    padding-right: 16px !important; } }
 /**
 * Team
 */

@@ -713,10 +713,10 @@
 }
 
 
-@media(max-width: 830px) {
+@media(max-width: 885px) {
     #happened{
         width: 100vw;
-        height: 80px;
+        height: 100px;
         position: relative;
         overflow-x: hidden;
     }
@@ -726,10 +726,34 @@
 
     #analog-waves{
         position: absolute;
-        // top: 260px;
         left: 50%;
         height: 100px;
         margin-left: -415px; /* half of the width */
+    }
+
+    #details ul{
+        margin: 0;
+    }
+
+    // profiles
+    .align-right{
+        *{
+            float: none !important;
+            text-align: left !important;
+        }
+        padding: 0 !important;   
+    }
+
+    .half-w, .third-w{
+        float: none !important;
+        width: 400px !important;
+        max-width: 92% !important;
+        margin: 30px auto;
+    }
+
+    .person{
+        padding-left: 16px !important;
+        padding-right: 16px !important;
     }
 }
 
