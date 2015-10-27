@@ -693,6 +693,22 @@ pre {
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out; }
 
+@media (max-width: 830px) {
+  #happened {
+    width: 100vw;
+    height: 80px;
+    position: relative;
+    overflow-x: hidden; }
+
+  #lines, #facts, #dates {
+    display: none; }
+
+  #analog-waves {
+    position: absolute;
+    left: 50%;
+    height: 100px;
+    margin-left: -415px;
+    /* half of the width */ } }
 /**
 * Team
 */
@@ -865,7 +881,7 @@ pre {
   top: 260px;
   left: 240px; }
 .home #svg-battery {
-  left: 489px;
+  left: 491px;
   top: -100px; }
 .home #svg-tangram {
   top: 790px;
@@ -893,7 +909,7 @@ pre {
   position: relative; }
 .home #line-four {
   height: 434px;
-  width: 2px;
+  width: 3.5px;
   margin: 250px auto 0;
   position: relative;
   background: #3f206e;

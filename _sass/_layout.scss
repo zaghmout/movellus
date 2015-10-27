@@ -643,6 +643,7 @@
 
 #lines{
 
+
     width: 196px;
     margin: 0 auto;
     position: relative;
@@ -712,7 +713,25 @@
 }
 
 
+@media(max-width: 830px) {
+    #happened{
+        width: 100vw;
+        height: 80px;
+        position: relative;
+        overflow-x: hidden;
+    }
+    #lines, #facts, #dates{
+        display: none;
+    }
 
+    #analog-waves{
+        position: absolute;
+        // top: 260px;
+        left: 50%;
+        height: 100px;
+        margin-left: -415px; /* half of the width */
+    }
+}
 
 /**
 * Team
@@ -975,7 +994,7 @@
     }
     
     #svg-battery{
-        left: 489px;
+        left: 491px;
         top: -100px;
     }
 
@@ -1016,7 +1035,7 @@
 
     #line-four{
         height: 434px;
-        width: 2px;
+        width: 3.5px;
         margin: 250px auto 0;
         position: relative;
 
