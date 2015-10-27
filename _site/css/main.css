@@ -555,6 +555,9 @@ pre {
     font-size: 20px;
     margin: 0 60px;
     line-height: 1.8; }
+    @media screen and (max-width: 800px) {
+      #products-details .prod .prod-desc {
+        margin: 9px; } }
   #products-details .prod .tbl-wrapper {
     overflow-x: scroll; }
   #products-details .prod .prod-table {

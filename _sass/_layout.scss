@@ -535,6 +535,10 @@
             font-size: 20px;
             margin: 0 $spacing-unit * 2;
             line-height: $base-line-height * 1.2;
+
+            @include media-query(800px) {
+                margin: $spacing-unit * .3;
+            }
         }
 
         .tbl-wrapper{
