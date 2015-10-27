@@ -201,7 +201,7 @@ pre {
   -moz-box-shadow: 0px 0px 18px -2px #dedede;
   box-shadow: 0px 0px 18px -2px #dedede; }
   .site-header .wrapper {
-    margin-right: 20px; }
+    padding-right: 40px; }
   .site-header a img {
     max-width: 80%; }
 
@@ -216,6 +216,7 @@ pre {
 
 .site-nav {
   float: right;
+  margin-right: 18px;
   line-height: 56px; }
   .site-nav .menu-icon {
     display: none; }
@@ -228,7 +229,7 @@ pre {
       background-color: #3F206E;
       color: white;
       text-decoration: none; }
-  @media screen and (max-width: 670px) {
+  @media screen and (max-width: 680px) {
     .site-nav {
       position: absolute;
       top: 20px;
