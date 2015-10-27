@@ -961,6 +961,19 @@
         }
     }
 
+    .heading{
+        max-width: 700px;
+        margin: 75px auto;
+        padding: 0 8px;
+
+
+        @include media-query(500px) {
+            font-size: 18px;
+            max-width: 400px;
+            letter-spacing: $medium-kerning / 2;
+        }
+    }
+
     #line-one{
         position: relative;
     }
@@ -1081,10 +1094,6 @@
 
     .home{
 
-        .heading{
-        font-size: 18px;
-        letter-spacing: $medium-kerning / 2;
-        }
         .svg-icon{
             width: 160px;
             height: 160px;
@@ -1097,7 +1106,7 @@
         #line-one{
             height: 1000px;
             width: 300px;
-            background-image: url('/images/home-line-1-small.svg');
+            background-image: url('/movellus/images/home-line-1-small.svg');
         }
         #svg-movellus{
             margin-bottom: -2px;
@@ -1114,7 +1123,7 @@
             top: 705px;
         }
         #chip{
-            top: 900px;
+            top: 920px;
             left: 10px;
         }
 
@@ -1130,7 +1139,7 @@
         }
         #battery{
             left: 10px;
-            top: 110px;
+            top: 120px;
         }
         #svg-spiral{
             left: 70px;
