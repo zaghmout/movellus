@@ -1079,19 +1079,97 @@
 
 @media( max-width: 920px ) {
 
-    .home .heading{
+    .home{
+
+        .heading{
         font-size: 18px;
         letter-spacing: $medium-kerning / 2;
+        }
+        .svg-icon{
+            width: 160px;
+            height: 160px;
+        }
+        .icon-details{
+            max-width: 280px;
+        }
+
+        // line 1
+        #line-one{
+            height: 1000px;
+            width: 300px;
+            background-image: url('/images/home-line-1-small.svg');
+        }
+        #svg-movellus{
+            margin-bottom: -2px;
+        }
+        #svg-clock{
+            left: 70px;
+            top: 170px;
+        }
+        #clock{
+            left: 0;
+            top: 360px;
+        }
+        #svg-chip{
+            top: 705px;
+        }
+        #chip{
+            top: 900px;
+            left: 10px;
+        }
+
+        // line 2 + 3
+        #line-two-three{
+            background-image: url('/movellus/images/home-line-2-3-small.svg');
+            width: 310px;
+            margin-top: 220px;
+        }
+        #svg-battery{
+            left: 70px;
+            top: -80px;
+        }
+        #battery{
+            left: 10px;
+            top: 110px;
+        }
+        #svg-spiral{
+            left: 70px;
+            top: 284px;
+        }
+        #scalable{
+            left: 15px;
+            top: 475px;
+            font-size: 17px;
+            h2{
+                letter-spacing: $medium-kerning / 2;
+            }
+        }
+        #svg-tangram{
+            top: 685px;
+            left: 70px;
+        }
+        #svg-graph{
+            left: 75px;
+            top: 1100px;
+        }
+        #graph{
+            left: 15px;
+            top: 1290px;
+        }
+
+        #shield{
+            margin-top: 120px;
+        }
+        #svg-shield{
+            left: -77px;
+            top: -158px;
+        }
+        #line-four{
+            margin-top: 190px;
+        }
+
     }
-    #svg-movellus{
-        width: 160px !important;
-        height: 160px !important;
-        margin-bottom: -6px !important;
-    }
-    #line-one{
-        width: 300px !important;
-        background-image: url('/movellus/images/home-line-1-small.svg') !important;
-    }
+
 }
 
 .icon-details{
