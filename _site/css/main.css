@@ -189,7 +189,7 @@ pre {
   z-index: 3;
   position: fixed;
   width: 100vw;
-  padding: 10px;
+  padding: 0 10px;
   background-color: white;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
@@ -222,19 +222,23 @@ pre {
     display: none; }
   .site-nav .nav-link {
     color: #3F206E;
-    line-height: 1.5; }
-    .site-nav .nav-link:not(:first-child) {
-      margin-left: 20px; }
+    line-height: 1.5;
+    padding: 20px 0 16px;
+    border-bottom: 4px solid white;
+    transition: border-bottom-color .4s ease;
+    -webkit-transition: border-bottom-color .4s ease;
+    width: 120px;
+    float: left;
+    text-align: center; }
     .site-nav .nav-link:hover {
-      background-color: #3F206E;
-      color: white;
+      border-bottom-color: #3F206E;
       text-decoration: none; }
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width: 690px) {
     .site-nav {
       position: absolute;
-      top: 20px;
+      top: 10px;
       right: 30px;
-      background-color: #fff;
+      background-color: #fafafa;
       text-align: right; }
       .site-nav .menu-icon {
         display: block;
