@@ -176,6 +176,11 @@
     display: block;
     font-size: 24px;
 
+    h2{
+        max-width: 720px;
+        margin: 0 auto $spacing-unit;
+    }
+
     @include media-query($on-palm) {
         font-size: 22px;
         color: green;
