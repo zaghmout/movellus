@@ -38,7 +38,9 @@
     </a>
     <nav class="site-nav">
       <a href="#" class="menu-icon">
-        
+        <div>
+          
+        </div>
       </a>
 
       <div class="trigger">
@@ -104,12 +106,32 @@
 
 
             </article>
+            
+              <div id="disqus_thread"></div>
+                <script>
+                    
+                    var disqus_config = function () {
+                        this.page.url = "http://00s.github.io//movellus/movellus/news/2015/03/01/welcome-to-jekyll.html"
+                        this.page.identifier = "/movellus/news/2015/03/01/welcome-to-jekyll.html";
+                        this.disqus_developer = 1;
+                    };
+                    
+                    (function() {  // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        
+                        s.src = '//movellus.disqus.com/embed.js';
+                        
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            
+
         </div>
 
-        <a class="rss-subscribe" href="/movellus/news/index.html"> 
-          <p>
+        <a id="master-btn" href="/movellus/news/index.html"> 
               BACK TO NEWS
-          </p>
         </a>
     </div>
 </div>
