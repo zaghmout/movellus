@@ -494,7 +494,7 @@ pre {
     border-left: 1px dashed black; }
     @media screen and (max-width: 710px) {
       #contact-details .contact-col {
-        width: 95vw;
+        width: 92vw;
         max-width: 200px;
         float: none;
         margin: 0 auto;
@@ -551,7 +551,7 @@ input:-moz-placeholder {
   border: 1px #3F206E solid; }
   @media screen and (max-width: 710px) {
     #contact-form * {
-      width: 95vw !important;
+      width: 92vw !important;
       max-width: 420px;
       float: none;
       margin: 10px 2vw !important; } }

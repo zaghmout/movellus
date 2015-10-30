@@ -431,7 +431,7 @@
         border-left: 1px dashed black;
 
         @include media-query(710px) {
-            width: 95vw;
+            width: 92vw;
             max-width: 200px;
             float: none;
             margin: 0 auto;
@@ -505,7 +505,7 @@
         border: 1px $brand-color solid;
 
         @include media-query(710px) {
-            width: 95vw !important;
+            width: 92vw !important;
             max-width: 420px;
             float: none;
             margin: 10px 2vw !important;
