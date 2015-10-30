@@ -312,13 +312,13 @@ pre {
 .site-footer {
   padding: 60px 30px;
   background: white;
-  background: -moz-linear-gradient(top, white 0%, #eae4f0 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, white), color-stop(100%, #eae4f0));
-  background: -webkit-linear-gradient(top, white 0%, #eae4f0 100%);
-  background: -o-linear-gradient(top, white 0%, #eae4f0 100%);
-  background: -ms-linear-gradient(top, white 0%, #eae4f0 100%);
-  background: linear-gradient(to bottom, white 0%, #eae4f0 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eae4f0', GradientType=0 );
+  background: -moz-linear-gradient(top, white 0%, rgba(63, 32, 110, 0.4) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, white), color-stop(100%, rgba(63, 32, 110, 0.4)));
+  background: -webkit-linear-gradient(top, white 0%, rgba(63, 32, 110, 0.4) 100%);
+  background: -o-linear-gradient(top, white 0%, rgba(63, 32, 110, 0.4) 100%);
+  background: -ms-linear-gradient(top, white 0%, rgba(63, 32, 110, 0.4) 100%);
+  background: linear-gradient(to bottom, white 0%, rgba(63, 32, 110, 0.4) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#3F206E', GradientType=0 );
   font-family: "Montserrat", sans-serif; }
   .site-footer a {
     color: #3F206E; }
