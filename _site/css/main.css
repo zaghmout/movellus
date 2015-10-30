@@ -207,10 +207,14 @@ pre {
 
 .site-title {
   font-size: 26px;
-  line-height: 50px;
+  line-height: 20px;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
+  .site-title svg {
+    height: 50px;
+    width: 230px;
+    margin-top: 4px; }
   .site-title, .site-title:visited {
     color: #424242; }
 
@@ -231,7 +235,7 @@ pre {
     .site-nav .nav-link:hover {
       border-bottom-color: #3F206E;
       text-decoration: none; }
-  @media screen and (max-width: 690px) {
+  @media screen and (max-width: 765px) {
     .site-nav {
       position: absolute;
       top: 10px;

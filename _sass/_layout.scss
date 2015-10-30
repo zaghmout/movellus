@@ -32,10 +32,16 @@
 
 .site-title {
     font-size: 26px;
-    line-height: 50px;
+    line-height: 20px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+
+    svg{
+        height: 50px;
+        width: 230px;
+        margin-top: 4px;
+    }
 
     &,
     &:visited {
@@ -70,7 +76,7 @@
         }
     }
 
-    @include media-query(690px) {
+    @include media-query(765px) {
         position: absolute;
         top: 10px;
         right: 30px;
