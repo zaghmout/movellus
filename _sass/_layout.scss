@@ -541,9 +541,7 @@
 #products{
     
     .prod-wrapper{
-        display: inline-block;
         overflow-x: scroll;
-        
     }
 
 
@@ -605,10 +603,31 @@
             a{
                 div{
                     height: 100%;
-                    text-align: right;
-                    padding: 70px 20px 0;
+                    text-align: center;
+                    padding: 55px 20px 0;
                     
+                    &:nth-child(3){ 
 
+                    }
+                    &:nth-child(4){ 
+
+                    }
+
+                }
+            }
+            &:nth-child(2){ 
+                a > div{
+                    padding-top: 78px !important;
+                }
+            }
+            &:nth-child(3){ 
+                a > div{
+                    padding-top: 66px !important;
+                }
+            }
+            &:nth-child(4){ 
+                a > div{
+                    padding-top: 66px !important;
                 }
             }
         }
