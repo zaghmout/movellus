@@ -504,12 +504,42 @@ pre {
     #contact-details .contact-col .contact-icon {
       margin: 0px auto; }
       #contact-details .contact-col .contact-icon svg {
-        width: 60px; }
+        width: 80px; }
 
 .center {
   max-width: 700px;
   margin: 0 auto; }
 
+::-webkit-input-placeholder {
+  color: #3F206E;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 4px; }
+
+::-moz-placeholder {
+  color: #3F206E;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 4px; }
+
+/* firefox 19+ */
+:-ms-input-placeholder {
+  color: #3F206E;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 4px; }
+
+/* ie */
+input:-moz-placeholder {
+  color: #3F206E;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 4px; }
+
+#contact-form input, #contact-form textarea {
+  padding-left: 10px; }
+#contact-form textarea {
+  padding-top: 10px; }
+#contact-form input:not([type="submit"]), #contact-form textarea {
+  font-family: "Montserrat", sans-serif;
+  color: #3F206E;
+  font-size: 12px; }
 #contact-form * {
   height: 39px;
   margin-bottom: 30px;
@@ -524,12 +554,12 @@ pre {
 #contact-form textarea {
   height: 150px; }
 #contact-form .small-field {
-  width: 47.2%;
+  width: 46%;
   float: left; }
   #contact-form .small-field:nth-child(2n) {
     margin-left: 30px; }
 #contact-form .large-field {
-  width: 100%;
+  width: 98%;
   max-width: 694px; }
 
 /**

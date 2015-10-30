@@ -443,8 +443,8 @@
         .contact-icon{
             margin: 0px auto;
 
-            svg{
-                width: 60px;
+            svg{    
+                width: 80px;
             }
         }
 
@@ -455,7 +455,42 @@
     margin: 0 auto;
 }
 
+::-webkit-input-placeholder { 
+        color: $brand-color; 
+        font-family: $strong-font-family; 
+        letter-spacing: $medium-kerning; 
+    }::-moz-placeholder { 
+        color: $brand-color; 
+        font-family: $strong-font-family; 
+        letter-spacing: $medium-kerning; 
+    } /* firefox 19+ */
+    :-ms-input-placeholder { 
+        color: $brand-color; 
+        font-family: $strong-font-family; 
+        letter-spacing: $medium-kerning; 
+    } /* ie */
+    input:-moz-placeholder { 
+        color: $brand-color; 
+        font-family: $strong-font-family; 
+        letter-spacing: $medium-kerning; 
+    }
+
 #contact-form{
+
+    input, textarea{
+        padding-left: 10px;
+    }
+    textarea{
+        padding-top: 10px;
+    }
+
+    input:not([type="submit"]), textarea
+    {
+        font-family: $strong-font-family;
+        color: $brand-color;
+        font-size: 12px;
+
+    }
 
     *{
         height: $spacing-unit * 1.3;
@@ -477,7 +512,7 @@
     }
     
     .small-field{
-        width: 47.2%;
+        width: 46%;
         float: left;
 
         &:nth-child(2n){
@@ -487,7 +522,7 @@
     }
 
     .large-field{
-        width: 100%;
+        width: 98%;
         max-width: $full-column;
     }
 }
