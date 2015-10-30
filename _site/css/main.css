@@ -735,6 +735,9 @@ pre {
   #details ul {
     margin: 0; }
 
+  #directors {
+    padding-left: 0 !important; }
+
   .align-right {
     padding: 0 !important; }
     .align-right * {
