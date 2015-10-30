@@ -587,12 +587,30 @@ input:-moz-placeholder {
     width: 180px;
     border-width: 1px;
     overflow: hidden;
-    word-break: normal; }
+    word-break: normal;
+    background-color: white;
+    -webkit-transition: background-color 0.6s ease;
+    transition: background-color 0.6s ease; }
     #products #products-names li:hover {
+      -webkit-transition: background-color 0.8s ease;
+      transition: background-color 0.8s ease;
       cursor: pointer;
-      background-color: #3F206E;
       color: white;
-      border-radius: 4px; }
+      border-radius: 4px;
+      background-color: #3F206E;
+      border-color: #3F206E; }
+      #products #products-names li:hover:nth-child(2) {
+        background-color: #562b96;
+        border-color: #562b96; }
+      #products #products-names li:hover:nth-child(3) {
+        background-color: #6c37bd;
+        border-color: #6c37bd; }
+      #products #products-names li:hover:nth-child(4) {
+        background-color: #8758cf;
+        border-color: #8758cf; }
+      #products #products-names li:hover:nth-child(5) {
+        background-color: #a480da;
+        border-color: #a480da; }
       #products #products-names li:hover a {
         color: white;
         text-decoration: none; }
