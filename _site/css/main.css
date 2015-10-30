@@ -262,6 +262,24 @@ pre {
         padding: 5px 10px; } }
 
 /**
+ * Banner
+ */
+#banner {
+  background-color: #3F206E;
+  height: 300px;
+  color: white;
+  font-size: 7px;
+  padding-bottom: 25px; }
+  #banner svg {
+    margin: 0px auto;
+    width: 400px;
+    display: block;
+    padding: 40px 6px 0; }
+  #banner h1 {
+    font-size: 11px;
+    margin-top: 0 !important; }
+
+/**
  * Master Button
  */
 #master-btn {
@@ -903,7 +921,7 @@ pre {
     margin: 60px auto 30px;
     position: relative; }
   .home #svg-movellus {
-    margin: 0 auto -20px;
+    margin: -100px auto -20px;
     display: block;
     min-width: 200px; }
   .home #svg-chip {
