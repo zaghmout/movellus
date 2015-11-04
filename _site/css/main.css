@@ -672,7 +672,7 @@ input:-moz-placeholder {
 */
 #analog-waves {
   display: block;
-  margin: 0 auto; }
+  margin: -180px auto 0; }
 
 #facts {
   margin: 0 auto;
@@ -692,44 +692,47 @@ input:-moz-placeholder {
     width: 90em; }
     #facts li:nth-child(1) {
       top: 160px;
-      left: 45px; }
+      left: 50px; }
     #facts li:nth-child(2) {
       top: 120px;
       left: 105px; }
     #facts li:nth-child(3) {
       top: 80px;
-      left: 170px; }
+      left: 160px; }
     #facts li:nth-child(4) {
       top: 40px;
-      left: 230px; }
+      left: 215px; }
 
 #happened {
   width: 830px;
   margin: 0 auto; }
   #happened ul#dates {
     margin: 0 auto;
-    width: 265px;
+    width: 230px;
     list-style-type: none;
     font-family: "Montserrat", sans-serif; }
     #happened ul#dates li {
       float: left;
-      margin: 14px;
+      margin: 10px;
       position: relative;
-      top: -130px; }
+      top: -150px; }
 
 #lines {
-  width: 196px;
+  width: 168px;
   margin: 0 auto;
   position: relative; }
   #lines svg {
     position: absolute;
-    top: -77px; }
+    top: -55px; }
     #lines svg:nth-child(2) {
-      left: 62px; }
+      left: 54px;
+      top: -68px; }
     #lines svg:nth-child(3) {
-      left: 125px; }
+      left: 109px;
+      top: -77px; }
     #lines svg:nth-child(4) {
-      left: 188px; }
+      left: 164px;
+      top: -92px; }
 
 #details {
   max-width: 380px;
