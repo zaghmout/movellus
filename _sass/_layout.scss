@@ -858,7 +858,7 @@
 @media(max-width: 885px) {
     #happened{
         width: 100vw;
-        height: 100px;
+        height: 150px;
         position: relative;
         overflow-x: hidden;
     }
@@ -869,8 +869,8 @@
     #analog-waves{
         position: absolute;
         left: 50%;
-        height: 100px;
-        margin-left: -415px; /* half of the width */
+        height: 410px;
+        margin-left: -445px; /* half of the width */
     }
 
     #details ul{
