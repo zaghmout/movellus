@@ -99,7 +99,7 @@ navindex: 3
     <input style="float: right" class="small-field m-btn" type="submit" value="SEND">
     
     <input type="text" name="_gotcha" style="display:none" />
-    <input type="hidden" name="_next" value="{{site.url}}/thanks.html" />
+    <input type="hidden" name="_next" value="{{ "/thanks.html" | prepend: site.baseurl }}" />
   </form>
 
 </div>

@@ -1017,13 +1017,13 @@ input:-moz-placeholder {
     height: 1343px;
     width: 900px;
     margin: 0 auto;
-    background-image: url("/movellus/images/home-line-1.svg");
+    background-image: url("/images/home-line-1.svg");
     background-repeat: no-repeat; }
   .home #line-two-three {
     height: 1434px;
     width: 692px;
     margin: 300px auto 0;
-    background-image: url("/movellus/images/home-line-2-3.svg");
+    background-image: url("/images/home-line-2-3.svg");
     background-repeat: no-repeat;
     position: relative; }
   .home #line-four {
@@ -1049,7 +1049,7 @@ input:-moz-placeholder {
   .home #line-one {
     height: 1000px;
     width: 300px;
-    background-image: url("/movellus/images/home-line-1-small.svg"); }
+    background-image: url("/images/home-line-1-small.svg"); }
   .home #svg-movellus {
     margin-bottom: -2px; }
   .home #svg-clock {
@@ -1064,7 +1064,7 @@ input:-moz-placeholder {
     top: 920px;
     left: 10px; }
   .home #line-two-three {
-    background-image: url("/movellus/images/home-line-2-3-small.svg");
+    background-image: url("/images/home-line-2-3-small.svg");
     width: 310px;
     margin-top: 220px; }
   .home #svg-battery {
@@ -1122,3 +1122,11 @@ input:-moz-placeholder {
   .banner p {
     font-family: "Source Sans Pro", sans-serif;
     letter-spacing: 5px; }
+
+#thankyou {
+  height: 100vh;
+  padding-top: 77px; }
+
+#sweetheart {
+  display: block;
+  margin: 20px auto 80px; }
