@@ -263,7 +263,10 @@ pre {
         padding-bottom: 5px; }
       .site-nav .page-link {
         display: block;
-        padding: 5px 10px; } }
+        padding: 5px 10px; }
+      .site-nav .nav-link {
+        display: block;
+        width: 80vw; } }
 
 /**
  * Banner
