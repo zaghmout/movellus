@@ -211,10 +211,10 @@ pre {
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
-  .site-title svg {
-    height: 50px;
-    width: 230px;
-    margin-top: 4px; }
+  .site-title img {
+    margin-top: 7px;
+    height: 56px;
+    max-width: 100% !important; }
   .site-title, .site-title:visited {
     color: #424242; }
 
@@ -391,7 +391,7 @@ pre {
  * Page content
  */
 .page-content {
-  padding-top: 57px; }
+  padding-top: 70px; }
 
 .page-heading {
   font-size: 20px; }

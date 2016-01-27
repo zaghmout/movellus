@@ -37,10 +37,10 @@
     margin-bottom: 0;
     float: left;
 
-    svg{
-        height: 50px;
-        width: 230px;
-        margin-top: 4px;
+    img{
+        margin-top: 7px;
+        height: 56px;
+        max-width: 100% !important;
     }
 
     &,
@@ -285,7 +285,7 @@
  * Page content
  */
 .page-content {
-    padding-top: 57px;
+    padding-top: 70px;
 }
 
 .page-heading {
