@@ -284,11 +284,9 @@ pre {
     width: 400px;
     display: block;
     padding: 40px 6px 0; }
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 400px) {
       #banner svg {
-        width: 320px;
-      }
-    }
+        width: 320px; } }
   #banner h1 {
     font-size: 11px;
     margin-top: 0 !important; }
