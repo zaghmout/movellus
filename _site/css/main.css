@@ -192,7 +192,7 @@ pre {
   padding: 0 10px;
   background-color: white;
   border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
+  min-height: 70px;
   font-family: "Montserrat", sans-serif;
   color: #3F206E;
   font-size: 13px;
@@ -240,7 +240,7 @@ pre {
   @media screen and (max-width: 765px) {
     .site-nav {
       position: absolute;
-      top: 10px;
+      top: 18px;
       right: 20px;
       background-color: #fafafa;
       text-align: right; }
@@ -268,7 +268,9 @@ pre {
         padding: 5px 10px; }
       .site-nav .nav-link {
         display: block;
-        width: 80vw; } }
+        width: 80vw;
+        margin-left: 0;
+        margin-right: 0; } }
 
 /**
  * Banner

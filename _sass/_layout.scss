@@ -8,7 +8,7 @@
     padding: 0 10px;
     background-color: white;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 70px;
     font-family: $strong-font-family;
     color: $brand-color;
 
@@ -79,7 +79,7 @@
 
     @include media-query(765px) {
         position: absolute;
-        top: 10px;
+        top: 18px;
         right: 20px;
         background-color: #fafafa;
         text-align: right;
@@ -120,6 +120,8 @@
         .nav-link{
             display: block;
             width: 80vw;
+            margin-left: 0;
+            margin-right: 0;
         }
     }
 }
