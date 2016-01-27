@@ -221,13 +221,15 @@ pre {
 .site-nav {
   float: right;
   margin-right: 18px;
-  line-height: 56px; }
+  line-height: 70px; }
   .site-nav .menu-icon {
     display: none; }
   .site-nav .nav-link {
     color: #3F206E;
     line-height: 1.5;
-    padding: 20px 6px 16px;
+    padding: 26px 10px 24px;
+    margin-left: -4px;
+    margin-right: -4px;
     border-bottom: 4px solid white;
     transition: border-bottom-color .4s ease;
     -webkit-transition: border-bottom-color .4s ease;
@@ -239,7 +241,7 @@ pre {
     .site-nav {
       position: absolute;
       top: 10px;
-      right: 30px;
+      right: 20px;
       background-color: #fafafa;
       text-align: right; }
       .site-nav .menu-icon {
@@ -282,6 +284,11 @@ pre {
     width: 400px;
     display: block;
     padding: 40px 6px 0; }
+    @media screen and (max-width: 400px){
+      #banner svg {
+        width: 320px;
+      }
+    }
   #banner h1 {
     font-size: 11px;
     margin-top: 0 !important; }
