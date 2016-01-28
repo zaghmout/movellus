@@ -789,22 +789,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
         }
     }
 }
+#happened-wrapper{
+    margin-top: 100px;
 
-#happened{
-    width: 830px;
-    margin: 0 auto;
-
-    ul#dates{
+    #happened{
+        width: 830px;
         margin: 0 auto;
-        width: 230px;
-        list-style-type: none;
-        font-family: $strong-font-family;
 
-        li{
-            float: left;
-            margin: 10px;
-            position: relative;
-            top: -150px;
+        ul#dates{
+            margin: 0 auto;
+            width: 230px;
+            list-style-type: none;
+            font-family: $strong-font-family;
+
+            li{
+                float: left;
+                margin: 10px;
+                position: relative;
+                top: -150px;
+            }
         }
     }
 }
@@ -825,7 +828,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
     }
 }
-
+.event-label{
+    display: none;
+}
 #details{
     max-width: 380px;
     padding: 16px;
@@ -851,7 +856,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
             span{
                 font-family: $strong-font-family;
                 letter-spacing: $large-kerning;
-                font-size: $small-font-size * 0.7;
+                font-size: 10px; // $small-font-size * 0.7;
             }
         }
     }
@@ -868,11 +873,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 @media(max-width: 885px) {
-    #happened{
-        width: 100vw;
-        height: 150px;
-        position: relative;
-        overflow-x: hidden;
+    #happened-wrapper{
+        margin-top: -100px;
+        
+        #happened{
+            width: 100vw;
+            height: 150px;
+            position: relative;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
     }
     #lines, #facts, #dates{
         display: none;
@@ -884,9 +894,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
         height: 410px;
         margin-left: -445px; /* half of the width */
     }
+    .event-label{
+        display: inline;
+        letter-spacing: 1px !important;
+        color: #011022;
+        font-weight: bold;
+    }
 
-    #details ul{
-        margin: 0;
+    #details 
+    {
+        padding-top: 40px;
+        ul{
+            margin: 0;
+        }
     }
 
     #directors {

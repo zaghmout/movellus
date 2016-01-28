@@ -714,19 +714,21 @@ input:-moz-placeholder {
       top: 40px;
       left: 215px; }
 
-#happened {
-  width: 830px;
-  margin: 0 auto; }
-  #happened ul#dates {
-    margin: 0 auto;
-    width: 230px;
-    list-style-type: none;
-    font-family: "Montserrat", sans-serif; }
-    #happened ul#dates li {
-      float: left;
-      margin: 10px;
-      position: relative;
-      top: -150px; }
+#happened-wrapper {
+  margin-top: 100px; }
+  #happened-wrapper #happened {
+    width: 830px;
+    margin: 0 auto; }
+    #happened-wrapper #happened ul#dates {
+      margin: 0 auto;
+      width: 230px;
+      list-style-type: none;
+      font-family: "Montserrat", sans-serif; }
+      #happened-wrapper #happened ul#dates li {
+        float: left;
+        margin: 10px;
+        position: relative;
+        top: -150px; }
 
 #lines {
   width: 168px;
@@ -744,6 +746,9 @@ input:-moz-placeholder {
     #lines svg:nth-child(4) {
       left: 164px;
       top: -92px; }
+
+.event-label {
+  display: none; }
 
 #details {
   max-width: 380px;
@@ -777,7 +782,7 @@ input:-moz-placeholder {
       #details ul li span {
         font-family: "Montserrat", sans-serif;
         letter-spacing: 5.5px;
-        font-size: 9.8px; }
+        font-size: 10px; }
 
 .fadeInUp {
   -webkit-animation-duration: 1s;
@@ -788,11 +793,14 @@ input:-moz-placeholder {
   animation-timing-function: ease-out; }
 
 @media (max-width: 885px) {
-  #happened {
-    width: 100vw;
-    height: 150px;
-    position: relative;
-    overflow-x: hidden; }
+  #happened-wrapper {
+    margin-top: -100px; }
+    #happened-wrapper #happened {
+      width: 100vw;
+      height: 150px;
+      position: relative;
+      overflow-y: hidden;
+      overflow-x: hidden; }
 
   #lines, #facts, #dates {
     display: none; }
@@ -804,8 +812,16 @@ input:-moz-placeholder {
     margin-left: -445px;
     /* half of the width */ }
 
-  #details ul {
-    margin: 0; }
+  .event-label {
+    display: inline;
+    letter-spacing: 1px !important;
+    color: #011022;
+    font-weight: bold; }
+
+  #details {
+    padding-top: 40px; }
+    #details ul {
+      margin: 0; }
 
   #directors {
     padding-left: 0 !important; }
