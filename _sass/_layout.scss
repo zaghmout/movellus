@@ -191,17 +191,19 @@
  * Site footer
  */
 .site-footer {
-    padding: ($spacing-unit * 2) $spacing-unit ;
-    background: rgba(255,255,255,1);
-    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(63,32,110,0.4) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(63,32,110,0.4)));
-    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(63,32,110,0.4) 100%);
-    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(63,32,110,0.4) 100%);
-    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(63,32,110,0.4) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(63,32,110,0.4) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#3F206E', GradientType=0 );
-    font-family: $strong-font-family;
+    margin-top: $spacing-unit * 2; 
+    padding: ($spacing-unit * 3) $spacing-unit ;
     
+background: rgba(255,255,255,0.53);
+background: -moz-linear-gradient(top, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.53)), color-stop(100%, rgba(63,32,110,0.31)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#3f206e', GradientType=0 );
+
+    font-family: $strong-font-family;
 
     a{
         color: #3F206E;
