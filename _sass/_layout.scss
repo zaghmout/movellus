@@ -1009,7 +1009,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #directors{
     max-width: 1000px;
     margin: 0 auto;
-    padding-left: 150px;
     margin-top: 60px;
 
 
@@ -1020,6 +1019,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 */
 .btn-more{
     width: 100%;
+    margin-bottom: 30px;
 
     &:hover{
         text-decoration: none;

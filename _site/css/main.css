@@ -890,14 +890,14 @@ input:-moz-placeholder {
 #directors {
   max-width: 1000px;
   margin: 0 auto;
-  padding-left: 150px;
   margin-top: 60px; }
 
 /**
 * toggles
 */
 .btn-more {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 30px; }
   .btn-more:hover {
     text-decoration: none; }
 
