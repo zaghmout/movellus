@@ -298,13 +298,10 @@ pre {
       margin: 0px auto;
       width: 600px;
       display: block;
-      padding: 0px 6px 0;
-      filter: drop-shadow(0px 0px 10px #000);
-      -webkit-filter: drop-shadow(0px 0px 10px #000); }
+      padding: 0px 6px 0; }
       @media screen and (max-width: 600px) {
         #home-banner .vertical-align svg {
-          width: 400px;
-          -webkit-filter: initial; } }
+          width: 400px; } }
       @media screen and (max-width: 400px) {
         #home-banner .vertical-align svg {
           width: 320px; } }
