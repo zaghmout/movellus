@@ -130,7 +130,7 @@
 /**
  * Banner
  */
-#banner{
+#home-banner{
     background-color: $brand-color;
     background-image: url('/images/bg-puzz-min.png');
     -webkit-background-size: cover;
@@ -150,6 +150,7 @@
         -webkit-filter: drop-shadow( 0px 0px 10px #000 );
         @include media-query(600px) {
             width: 400px;
+            -webkit-filter: initial;
         }
         @include media-query(400px) {
             width: 320px;
