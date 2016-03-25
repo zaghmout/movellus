@@ -237,7 +237,7 @@ pre {
     .site-nav .nav-link:hover {
       border-bottom-color: #3F206E;
       text-decoration: none; }
-  @media screen and (max-width: 765px) {
+  @media screen and (max-width: 770px) {
     .site-nav {
       position: absolute;
       top: 18px;
@@ -292,14 +292,21 @@ pre {
     padding: 120px 6px 0;
     filter: drop-shadow(0px 0px 10px #000);
     -webkit-filter: drop-shadow(0px 0px 10px #000); }
+    @media screen and (max-width: 600px) {
+      #banner svg {
+        width: 400px; } }
     @media screen and (max-width: 400px) {
       #banner svg {
         width: 320px; } }
   #banner h1 {
     text-shadow: 0 0 5px black;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 20px !important;
     text-shadow: 0 0 5px black; }
+    @media screen and (max-width: 600px) {
+      #banner h1 {
+        font-size: 12px;
+        margin-top: 0px !important; } }
 
 /**
  * Master Button
@@ -993,11 +1000,11 @@ input:-moz-placeholder {
     max-width: 700px;
     margin: 75px auto;
     padding: 0 8px; }
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 600px) {
       .home .heading {
         font-size: 18px;
         max-width: 400px;
-        letter-spacing: 2px; } }
+        letter-spacing: 2.66667px; } }
   .home #line-one {
     position: relative; }
   .home #clock {
@@ -1086,7 +1093,8 @@ input:-moz-placeholder {
     width: 300px;
     background-image: url("/images/home-line-1-small.svg"); }
   .home #svg-movellus {
-    margin-bottom: -2px; }
+    margin-bottom: -2px;
+    margin-top: -80px; }
   .home #svg-clock {
     left: 70px;
     top: 170px; }
