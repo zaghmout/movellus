@@ -137,7 +137,19 @@
 /**
  * Banner
  */
+ #white{
+    background-color: white;
+    padding-top: 1px;
+    margin-top: 450px;
+    box-shadow: 0 -10px 50px #423463;
+    @include media-query(600px) {
+        margin-top: 100vh;
+    }
+ }
 #home-banner{
+    position: fixed;
+    width: 100vw;
+    z-index: -5;
     background-color: $brand-color;
     background-image: url('/images/bg-puzz-min.png');
     -webkit-background-size: cover;

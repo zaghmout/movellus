@@ -275,7 +275,19 @@ pre {
 /**
  * Banner
  */
+#white {
+  background-color: white;
+  padding-top: 1px;
+  margin-top: 450px;
+  box-shadow: 0 -10px 50px #423463; }
+  @media screen and (max-width: 600px) {
+    #white {
+      margin-top: 100vh; } }
+
 #home-banner {
+  position: fixed;
+  width: 100vw;
+  z-index: -5;
   background-color: #3F206E;
   background-image: url("/images/bg-puzz-min.png");
   -webkit-background-size: cover;
