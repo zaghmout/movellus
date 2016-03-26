@@ -185,7 +185,7 @@
             text-shadow: 0 0 5px black;
             @include media-query(600px) {
                 font-size: 12px;
-                margin-top: 0px !important;
+                margin-top: -20px !important;
             }
         }
     }
