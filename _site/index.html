@@ -116,7 +116,7 @@
         </h1>
       </div>
     </div>
-    <div id="white">
+    <div id="white" class="box-shadow">
       <svg  id="svg-movellus" class="svg-icon" width="354px" height="304px" viewBox="0 -6 310 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="MOVELLUS-DESKTOP" sketch:type="MSArtboardGroup" transform="translate(-326.000000, -573.000000)">
@@ -449,6 +449,7 @@
     });
 
 </script>
+
 <script>
 // SCROOL TO ANCHOR
 $(function() {
@@ -468,6 +469,34 @@ $(function() {
   });
 });
 </script>
+<script>
+  var target = $(window).height() * 3;
+  var showing = true;
+
+  var interval = setInterval(function() {
+
+    if ($(window).scrollTop() > target) {
+      if(showing)
+          hide_banner();
+      }else{
+        if (!showing)
+          show_banner();
+      }
+  }, 250);
+
+  var hide_banner = function () {
+    $('#home-banner').hide();
+    $('#white').removeClass('box-shadow');
+    showing = false;
+  }
+
+  var show_banner = function () {
+    $('#home-banner').show();
+    $('#white').addClass('box-shadow');
+    showing = true;
+  }
+</script>
+
 </body>
 
 </html>

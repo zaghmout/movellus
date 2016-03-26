@@ -278,11 +278,13 @@ pre {
 #white {
   background-color: white;
   padding-top: 1px;
-  margin-top: 450px;
-  box-shadow: 0 -10px 50px #423463; }
+  margin-top: 450px; }
   @media screen and (max-width: 600px) {
     #white {
       margin-top: 100vh; } }
+
+.box-shadow {
+  box-shadow: 0 -10px 50px #423463; }
 
 #home-banner {
   position: fixed;
@@ -325,7 +327,7 @@ pre {
       @media screen and (max-width: 600px) {
         #home-banner .vertical-align h1 {
           font-size: 12px;
-          margin-top: 0px !important; } }
+          margin-top: -20px !important; } }
 
 /**
  * Master Button

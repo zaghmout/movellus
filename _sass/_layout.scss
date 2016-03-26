@@ -141,10 +141,12 @@
     background-color: white;
     padding-top: 1px;
     margin-top: 450px;
-    box-shadow: 0 -10px 50px #423463;
     @include media-query(600px) {
         margin-top: 100vh;
     }
+ }
+ .box-shadow{
+    box-shadow: 0 -10px 50px #423463;
  }
 #home-banner{
     position: fixed;
