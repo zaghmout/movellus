@@ -101,11 +101,8 @@
     margin: 5px;
     display: none;
 }
-ul{
-   
-}
-li#active-gif{
-    display: block;
+li.active-gif{
+    display: block !important;
 }
 #t-gifs, #t-labels{
     width: 50vw;
@@ -113,6 +110,7 @@ li#active-gif{
 }
 ul#gif-list{
     margin-right: 50px;
+    margin-top: 30px;
     float: right;
 }
 #gif-list img{
@@ -125,11 +123,33 @@ ul#gif-list{
     /*font-size: larger;*/
     font-family: 'Montserrat';
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 #t-labels-wrapper{
     max-width: 500px;
+}
+
+#labels-list li.active-label{
+    border: 1px solid rgba(63, 40, 110, 0.15);
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 2px 2px 0;
+    opacity: 1;
+}
+#labels-list{
+    list-style-type: none;
+}
+#labels-list li{
+    padding: 20px;
+    margin-left: -30px;
+    border: 1px solid transparent;
+    opacity: 0.5;
+}
+#labels-list li:hover{
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0.9;
 }
 </style>
 
@@ -147,14 +167,14 @@ ul#gif-list{
         <div id="tech-wrapper">
             <div id="t-gifs">
                 <ul id="gif-list">
-                    <li id="active-gif">
+                    <li class="active-gif">
                         <img src="/images/economy.jpg" alt="">
                     </li>
                     <li>
-                        <img src=" http://placehold.it/400x400" alt="">
+                        <img src="/images/productivity-tomato.jpg" alt="">
                     </li>
                     <li>
-                        <img src=" http://placehold.it/400x400" alt="">
+                        <img src="/images/productivity.jpg" alt="">
                     </li>
                 </ul>
             </div>  
@@ -164,22 +184,22 @@ ul#gif-list{
                     <p id="labels-heading">
                         There are three main components of the technology that enable digitization of analog blocks:
                     </p>
-                    <ul style="list-style-type: none;">
-                        <li>
+                    <ul id="labels-list">
+                        <li class="taphover active-label">
                             <strong>
                                 1. NOVEL ARCHITECTURES
                             </strong>
                             <br>
                             Our proprietary architectures for traditional analog blocks result in significant power consumption and silicon area reduction.
                         </li>
-                        <li>
+                        <li class="taphover">
                             <strong>
                                 2. DESIGN METHODOLOGY
                             </strong>
                             <br>
                             Our design methodology leverages powerful digital tools to result in orders of magnitude reduction in design time, and therefore, shrinks the design cycle.
                         </li>
-                        <li>
+                        <li class="taphover">
                             <strong>
                                 3. CALIBRATION ALGORITHMS
                             </strong>
@@ -191,10 +211,7 @@ ul#gif-list{
             </div>
         </div>
     </div>
-
-
 </div>
-
 
     <footer class="site-footer">
 
@@ -283,6 +300,28 @@ $(function() {
     showing = true;
   }
 </script>
+
+<script>
+$('li.taphover').on("touchstart mousedown", function (e) {
+    "use strict"; //satisfy the code inspectors
+    var label = $(this); //preselect the label
+    if (label.hasClass('active-label')) {
+        return true;
+    } else {
+        label.addClass("active-label");
+        
+        var gif = $('ul#gif-list li:eq(' + label.index() + ')');
+        gif.addClass('active-gif');
+
+        $('ul#gif-list li').not(gif).removeClass('active-gif');
+        
+        $('li.taphover').not(this).removeClass("active-label");
+        e.preventDefault();
+        return false; //extra, and to make sure the function has consistent return points
+    }
+});
+</script>
+
 
 </body>
 
