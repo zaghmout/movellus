@@ -27,7 +27,6 @@ li.active-gif{
 }
 ul#gif-list{
     margin-right: 50px;
-    margin-top: 30px;
     float: right;
 }
 #gif-list img{
@@ -35,12 +34,14 @@ ul#gif-list{
     max-height: 400px;
 }
 #labels-heading{
-    font-weight: 400;
-    letter-spacing: 2px;
-    /*font-size: larger;*/
     font-family: 'Montserrat';
+    font-weight: 300;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto 60px;
+    letter-spacing: 2px;
+    font-size: larger;
     text-transform: uppercase;
-    margin-bottom: 20px;
 }
 
 #t-labels-wrapper{
@@ -68,6 +69,42 @@ ul#gif-list{
     cursor: pointer;
     opacity: 0.9;
 }
+
+
+
+@media(max-width: 860px){
+    #t-gifs, #t-labels, #t-labels-wrapper {
+        width: 100vw;
+        max-width: 100vw;
+
+    }
+    #gif-list img {
+        max-width: 100vw;
+    }
+    ul#gif-list{
+        max-width: 400px;
+        margin: 0 auto 20px;
+        float: none;
+    }
+    #t-labels-wrapper{
+        overflow-x: scroll;
+    }
+    #labels-list{
+        width: 1200px;
+        margin-left: 0px;
+    }
+
+    #labels-list li, #labels-list li.active-label{
+        float: left;
+        width: 350px;
+        max-width: 80vw;
+        padding: 6px;
+        display: inline;
+        margin: 6px;
+    }
+}
+
+
 </style>
 
 <div class="page-content cf">
@@ -78,6 +115,10 @@ ul#gif-list{
     <P id="t-subheading">
         A RESULT OF OVER 10 YEARS R&amp;D EFFORTS
     </P>
+    
+    <p id="labels-heading">
+        There are <strong>three main components</strong> of our technology that enable digitization of analog blocks:
+    </p>
 
 
     <div id="products">
@@ -85,22 +126,19 @@ ul#gif-list{
             <div id="t-gifs">
                 <ul id="gif-list">
                     <li class="active-gif">
-                        <img src="/images/economy.jpg" alt="">
+                        <img src="/images/economy-1600-min.png" alt="">
                     </li>
                     <li>
-                        <img src="/images/productivity-tomato.jpg" alt="">
+                        <img src="/images/productivity-1600-min.png" alt="">
                     </li>
                     <li>
-                        <img src="/images/productivity.jpg" alt="">
+                        <img src="/images/improvement-1600-min.png" alt="">
                     </li>
                 </ul>
             </div>  
             <div id="t-labels">
                 <div id="t-labels-wrapper">
                         
-                    <p id="labels-heading">
-                        There are three main components of the technology that enable digitization of analog blocks:
-                    </p>
                     <ul id="labels-list">
                         <li class="taphover active-label">
                             <strong>

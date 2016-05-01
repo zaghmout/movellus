@@ -229,7 +229,7 @@ $(function() {
 </script>
 
 <script>
-$('li.taphover').on("touchstart mousedown", function (e) {
+$('li.taphover').on("touchstart mouseover", function (e) {
     "use strict"; //satisfy the code inspectors
     var label = $(this); //preselect the label
     if (label.hasClass('active-label')) {
@@ -247,6 +247,10 @@ $('li.taphover').on("touchstart mousedown", function (e) {
         return false; //extra, and to make sure the function has consistent return points
     }
 });
+</script>
+
+<script>
+  
 </script>
 
 
