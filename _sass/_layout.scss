@@ -1318,6 +1318,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     list-style-type: none;
     margin: 5px;
     display: none;
+    -webkit-animation: fadeInUp 1s ease-out forwards; 
+    animation-name: fadeInUp 1s ease-out forwards;
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
 }
 li.active-gif{
     display: block !important;
@@ -1391,7 +1395,10 @@ ul#gif-list{
 
     }
     #gif-list img {
-        max-width: 100vw;
+        max-width: 80vw;
+        max-height: 80vw;
+        display: block;
+        margin: 0 auto;
     }
     ul#gif-list{
         max-width: 400px;
@@ -1403,7 +1410,7 @@ ul#gif-list{
     }
     #labels-list{
         width: 1200px;
-        margin-left: 0px;
+        margin-left: 7vw;
     }
 
     #labels-list li, #labels-list li.active-label{
