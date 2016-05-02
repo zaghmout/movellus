@@ -1124,7 +1124,7 @@ li.active-gif {
   display: block !important; }
 
 #t-gifs, #t-labels {
-  width: 50vw;
+  width: 49vw;
   float: left; }
 
 ul#gif-list {
