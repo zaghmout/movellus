@@ -95,26 +95,6 @@ $('li.taphover').on("touchstart mouseover", function (e) {
 });
 </script>
 
-<script>
-  $(function() {
-  $('ul#labels-list li').bind('touchstart',function(event){
-    var $anchor = $(this);
-    console.log( $anchor );
-    $anchor.animate({'left':'-=300px'});
-    /*
-    if you want to use one of the easing effects:
-    $('html, body').stop().animate({
-      scrollLeft: $($anchor.attr('href')).offset().left
-    }, 1500,'easeInOutExpo');
-     */
-    // $('html, body').stop().animate({
-    //   scrollLeft: $($anchor.attr('href')).offset().left
-    // }, 1000);
-    event.preventDefault();
-  });
-});
-</script>
-
 
 </body>
 
