@@ -1305,6 +1305,63 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 
+// NEW TECH PAGE
+
+.tech-wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flexbox-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+.flexbox-container > div {
+    width: 50%;
+    padding: 10px;
+}
+
+.flexbox-container > div:first-child {
+    margin-right: 20px;
+}
+
+.flexbox-container > div img{
+    max-width: 400px;
+}
+
+.feature-gif{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.feature-details{
+    div{
+        max-width: 300px;
+
+    }
+    strong{
+        font-size: 1.2em;
+        font-family: 'Montserrat';
+        display: block;
+    }
+}
+
+.feature-gif ~ .feature-details{
+    div{
+        max-width: 300px;
+    }
+}
+
+#left-half-line, #right-half-line{
+    border-bottom: 1px solid #3d2d6b;
+    width: 50%;
+    margin-top: 50px;
+}
+#right-half-line{
+    margin-left: 50%;
+}
+
 // TECH PAGE
 #t-subheading{
     text-align: center;
@@ -1317,15 +1374,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #gif-list li{
     list-style-type: none;
     margin: 5px;
-    display: none;
     -webkit-animation: fadeInUp 1s ease-out forwards; 
     animation-name: fadeInUp 1s ease-out forwards;
     -webkit-animation-fill-mode: both; 
     animation-fill-mode: both;
 }
-li.active-gif{
-    display: block !important;
-}
+
 #t-gifs, #t-labels{
     width: 49vw;
     float: left;

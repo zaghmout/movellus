@@ -348,24 +348,25 @@ $(function() {
 </script>
 
 <script>
-$('li.taphover').on("touchstart mouseover", function (e) {
-    "use strict"; //satisfy the code inspectors
-    var label = $(this); //preselect the label
-    if (label.hasClass('active-label')) {
-        return true;
-    } else {
-        label.addClass("active-label");
-        
-        var gif = $('ul#gif-list li:eq(' + label.index() + ')');
-        gif.addClass('active-gif');
+  // // for tech page
+  // $('li.taphover').on("touchstart mouseover", function (e) {
+  //     "use strict"; //satisfy the code inspectors
+  //     var label = $(this); //preselect the label
+  //     if (label.hasClass('active-label')) {
+  //         return true;
+  //     } else {
+  //         label.addClass("active-label");
+          
+  //         var gif = $('ul#gif-list li:eq(' + label.index() + ')');
+  //         gif.addClass('active-gif');
 
-        $('ul#gif-list li').not(gif).removeClass('active-gif');
-        
-        $('li.taphover').not(this).removeClass("active-label");
-        e.preventDefault();
-        return false; //extra, and to make sure the function has consistent return points
-    }
-});
+  //         $('ul#gif-list li').not(gif).removeClass('active-gif');
+          
+  //         $('li.taphover').not(this).removeClass("active-label");
+  //         e.preventDefault();
+  //         return false; //extra, and to make sure the function has consistent return points
+  //     }
+  // });
 </script>
 
 
