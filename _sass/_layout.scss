@@ -1383,67 +1383,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     margin-top: -60px;
     margin-bottom: 60px;
 }
-/*
-#gif-list li{
-    list-style-type: none;
-    margin: 5px;
-    -webkit-animation: fadeInUp 1s ease-out forwards; 
-    animation-name: fadeInUp 1s ease-out forwards;
-    -webkit-animation-fill-mode: both; 
-    animation-fill-mode: both;
-}
-
-#t-gifs, #t-labels{
-    width: 49vw;
-    float: left;
-}
-ul#gif-list{
-    margin-right: 50px;
-    float: right;
-}
-#gif-list img{
-    max-width: 400px;
-    max-height: 400px;
-}
-
-#t-labels-wrapper{
-    max-width: 500px;
-}
-
-#labels-list li.active-label{
-    border: 1px solid rgba(63, 40, 110, 0.15);
-    border-radius: 6px;
-    padding: 20px;
-    box-shadow: 2px 2px 0;
-    opacity: 1;
-}
-#labels-list{
-    list-style-type: none;
-}
-#labels-list li{
-    padding: 20px;
-    margin-left: -30px;
-    border: 1px solid transparent;
-    opacity: 0.5;
-    -webkit-animation: fadeInUp 1s ease-out forwards; 
-    animation-name: fadeInUp 1s ease-out forwards;
-    -webkit-animation-fill-mode: both; 
-    animation-fill-mode: both;
-    &:nth-child(1){ -webkit-animation-delay: 0.2s; animation-delay: 0.2s }
-    &:nth-child(2){ -webkit-animation-delay: 0.6s; animation-delay: 0.6s }
-    &:nth-child(3){ -webkit-animation-delay: 1s; animation-delay: 1s }
-}
-#labels-list li:hover{
-    border-radius: 6px;
-    cursor: pointer;
-    opacity: 0.9;
-}
-.taphover strong{
-    font-family: 'Montserrat';
-    font-weight: lighter;
-}
-
-*/
 
 @media(max-width: 800px){
     .flexbox-container{
@@ -1455,7 +1394,6 @@ ul#gif-list{
         width: 88%;
         max-width: 100vw;
         padding: 20px;
-        // margin-right: 0;
     }
     #labels-heading{
         font-size: 22px;
@@ -1473,42 +1411,8 @@ ul#gif-list{
     }
     .feature-details{
         padding: initial 0;
-        strong{
-            // text-align: center;
-        }
+        
     }
-    // #t-gifs, #t-labels, #t-labels-wrapper {
-    //     width: 100vw;
-    //     max-width: 100vw;
-
-    // }
-    // #gif-list img {
-    //     max-width: 80vw;
-    //     max-height: 80vw;
-    //     display: block;
-    //     margin: 0 auto;
-    // }
-    // ul#gif-list{
-    //     max-width: 400px;
-    //     margin: 0 auto 20px;
-    //     float: none;
-    // }
-    // #t-labels-wrapper{
-    //     overflow-x: scroll;
-    // }
-    // #labels-list{
-    //     width: 1200px;
-    //     margin-left: 7vw;
-    // }
-
-    // #labels-list li, #labels-list li.active-label{
-    //     float: left;
-    //     width: 350px;
-    //     max-width: 80vw;
-    //     padding: 6px;
-    //     display: inline;
-    //     margin: 6px;
-    // }
 }
 
 
