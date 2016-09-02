@@ -20,7 +20,7 @@ navindex: 0
     <div class="tech-wrapper">
         <div class="flexbox-container">
             <div class="feature-gif">
-                <img src="/images/gif/wallet.gif" alt="">
+                <img id="gif-tomato" src="/images/gif/wallet.gif" alt="">
             </div>
             <div class="feature-details">
                 <strong>
@@ -43,7 +43,7 @@ navindex: 0
                 Our design methodology leverages powerful digital tools to result in orders of magnitude reduction in design time, and therefore, shrinks the design cycle.
             </div>
             <div class="feature-gif">
-                <img src="/images/gif/tomato.gif" alt="">
+                <img id="gif-tomato" src="/images/gif/tomato.gif" alt="">
             </div>
         </div>
     </div>
@@ -52,7 +52,7 @@ navindex: 0
     <div class="tech-wrapper">
         <div class="flexbox-container">
             <div class="feature-gif">
-                <img src="/images/gif/badges.gif" alt="">
+                <img id="gif-badges" src="/images/gif/placeholders/badge-first.gif" alt="">
             </div>
             <div class="feature-details">
                 <strong>
@@ -64,4 +64,30 @@ navindex: 0
         </div>
     </div>
 </div>
+
+<script>
+    
+    var placeholder_wallet = document.getElementById('gif-wallet'),
+        placeholder_badges = document.getElementById('gif-badges'),
+        placeholder_tomato = document.getElementById('gif-tomato');
+
+    var gif_wallet = new Image,
+        gif_badges = new Image,
+        gif_tomato = new Image;
+
+    gif_wallet.onload = function() 
+    { placeholder_wallet.src = this.src; }
+    gif_wallet.src = 'http://movelluscircuits.com/images/gif/wallet.gif';
+
+    gif_badges.onload = function() 
+    { placeholder_badges.src = this.src; }
+    gif_badges.src = 'http://movelluscircuits.com/images/gif/badges.gif';
+
+    gif_tomato.onload = function() 
+    { placeholder_tomato.src = this.src; }
+
+    gif_tomato.src = 'http://movelluscircuits.com/images/gif/tomato.gif';
+
+
+</script>
 
