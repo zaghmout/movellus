@@ -28,26 +28,7 @@
 </script>
 
 <script>
-// SCROOL TO ANCHOR
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-                       && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      var distanceFromTop = 90
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top - distanceFromTop
-        }, 800);
-        return false;
-      }
-    }
-  });
-});
-</script>
-<script>
-  var target = $(window).height() * 3;
+  var target = $(window).height() * 2;
   var showing = true;
 
   var interval = setInterval(function() {
@@ -59,7 +40,7 @@ $(function() {
         if (!showing)
           show_banner();
       }
-  }, 250);
+  }, 200);
 
   var hide_banner = function () {
     $('#home-banner').hide();
