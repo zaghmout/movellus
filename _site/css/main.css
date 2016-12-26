@@ -534,13 +534,12 @@ pre {
 
 #contact-details {
   max-width: 700px;
-  margin: 0 auto; }
+  margin: 50px auto; }
   #contact-details .contact-col {
     float: left;
     width: 200px;
     text-align: center;
-    padding: 15px;
-    border-left: 1px dashed black; }
+    padding: 15px; }
     @media screen and (max-width: 710px) {
       #contact-details .contact-col {
         width: 92vw;
@@ -552,8 +551,6 @@ pre {
         border-right: 0 !important;
         padding: 7.5px;
         padding-bottom: 20px; } }
-    #contact-details .contact-col:last-child {
-      border-right: 1px dashed black; }
     #contact-details .contact-col .contact-icon {
       margin: 0px auto; }
       #contact-details .contact-col .contact-icon svg {
@@ -1233,3 +1230,12 @@ input:-moz-placeholder {
 
   .feature-details {
     padding: initial 0; } }
+header, .full-width {
+  width: 100%;
+  background: #ccc; }
+
+.wrap {
+  width: 80%;
+  max-width: 24em;
+  margin: 0 auto;
+  padding: 0.25em 0.625em; }
