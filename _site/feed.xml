@@ -4,11 +4,11 @@
     <title>Movellus</title>
     <description>Movellus provides analog solutions with the flexibility of digital designs. Seamless integration, reduced power consumption, small silicon area and silicon verified IP and more.
 </description>
-    <link>http://blog.movelluscircuits.com//</link>
-    <atom:link href="http://blog.movelluscircuits.com//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Nov 2016 20:35:38 -0300</pubDate>
-    <lastBuildDate>Tue, 01 Nov 2016 20:35:38 -0300</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 26 Dec 2016 16:19:48 +0000</pubDate>
+    <lastBuildDate>Mon, 26 Dec 2016 16:19:48 +0000</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>Ann Arbor’s Movellus Circuits named best emerging company in GLEQ contest</title>
@@ -17,9 +17,9 @@
 &lt;p class=&quot;read-more&quot;&gt;&lt;a href=&quot;http://www.crainsdetroit.com/article/20140617/NEWS/140619863/ann-arbors-movellus-circuits-named-best-emerging-company-in-gleq&quot;&gt;+ READ MORE&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 01 Mar 2015 09:23:01 -0300</pubDate>
-        <link>http://blog.movelluscircuits.com//movellus/news/2015/03/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://blog.movelluscircuits.com//movellus/news/2015/03/01/welcome-to-jekyll.html</guid>
+        <pubDate>Sun, 01 Mar 2015 12:23:01 +0000</pubDate>
+        <link>http://0.0.0.0:4000/movellus/news/2015/03/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/movellus/news/2015/03/01/welcome-to-jekyll.html</guid>
         
         
         <category>movellus</category>

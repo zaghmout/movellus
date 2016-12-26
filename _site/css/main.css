@@ -975,15 +975,14 @@ input:-moz-placeholder {
   .home #line-one {
     position: relative; }
   .home #clock {
-    top: 690px;
-    left: 80px; }
+    top: 685px;
+    left: 30px; }
   .home #chip {
-    top: 1300px;
-    left: 300px; }
+    top: 1640px;
+    left: 130px; }
   .home #battery {
-    top: -50px;
-    left: 70px;
-    width: 360px; }
+    top: 1175px;
+    left: 200px; }
   .home #scalable {
     top: 550px;
     left: 145px; }
@@ -991,43 +990,44 @@ input:-moz-placeholder {
     top: 1190px;
     left: 260px; }
   .home #shield {
-    margin: 60px auto 30px;
-    padding-top: 300px;
-    position: relative; }
+    margin: 0px auto;
+    position: absolute;
+    top: 2420px;
+    left: 190px; }
   .home #svg-movellus {
     margin: -100px auto -20px;
     display: block;
     min-width: 200px; }
   .home #svg-chip {
-    top: 1220px;
-    left: 73px; }
+    top: 1550px;
+    left: 580px; }
   .home #svg-clock {
     top: 600px;
-    left: 550px; }
+    left: 497px; }
   .home #svg-spiral {
     top: 260px;
     left: 240px; }
   .home #svg-battery {
-    left: 491px;
-    top: -100px; }
+    left: -35px;
+    top: 1080px; }
   .home #svg-tangram {
     top: 790px;
     left: 240px; }
   .home #svg-graph {
     top: 1150px; }
   .home #svg-shield {
-    left: -98px;
-    top: -198px; }
+    left: 325px;
+    top: 2169px; }
   .home #svg-master-line {
     width: 80%;
     height: 80%;
     margin: 0 auto;
     display: block; }
   .home #line-one {
-    height: 1343px;
-    width: 900px;
-    margin: 0 auto;
-    background-image: url("/images/home-line-1.svg");
+    height: 2600px;
+    width: 850px;
+    margin: 18px auto;
+    background-image: url("/images/outlines/main-outline-c.svg");
     background-repeat: no-repeat; }
   .home #line-two-three {
     height: 1434px;
@@ -1111,7 +1111,7 @@ input:-moz-placeholder {
   .home #line-four {
     margin-top: 190px; } }
 .icon-details {
-  width: 400px;
+  width: 480px;
   position: absolute;
   text-align: center;
   font-size: 18px;
