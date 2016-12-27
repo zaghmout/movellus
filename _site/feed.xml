@@ -4,10 +4,10 @@
     <title>Movellus</title>
     <description>Movellus provides analog solutions with the flexibility of digital designs. Seamless integration, reduced power consumption, small silicon area and silicon verified IP and more.
 </description>
-    <link>http://0.0.0.0:4000/</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Dec 2016 18:00:15 +0000</pubDate>
-    <lastBuildDate>Tue, 27 Dec 2016 18:00:15 +0000</lastBuildDate>
+    <link>http://blog.movelluscircuits.com//</link>
+    <atom:link href="http://blog.movelluscircuits.com//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 27 Dec 2016 20:44:49 +0000</pubDate>
+    <lastBuildDate>Tue, 27 Dec 2016 20:44:49 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -18,8 +18,8 @@
 
 </description>
         <pubDate>Sun, 01 Mar 2015 12:23:01 +0000</pubDate>
-        <link>http://0.0.0.0:4000/movellus/news/2015/03/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/movellus/news/2015/03/01/welcome-to-jekyll.html</guid>
+        <link>http://blog.movelluscircuits.com//movellus/news/2015/03/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://blog.movelluscircuits.com//movellus/news/2015/03/01/welcome-to-jekyll.html</guid>
         
         
         <category>movellus</category>

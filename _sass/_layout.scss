@@ -749,71 +749,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     color: #3F206E;
 }
 
-
-@media(max-width: 885px) {
-    #happened-wrapper{
-        margin-top: -100px;
-
-        #happened{
-            width: 100vw;
-            height: 150px;
-            position: relative;
-            overflow-y: hidden;
-            overflow-x: hidden;
-        }
-    }
-    #lines, #facts, #dates{
-        display: none;
-    }
-
-    #analog-waves{
-        position: absolute;
-        left: 50%;
-        height: 410px;
-        margin-left: -445px; /* half of the width */
-    }
-    .event-label{
-        display: inline;
-        letter-spacing: 1px !important;
-        color: #011022;
-        font-weight: bold;
-    }
-
-    #details
-    {
-        padding-top: 40px;
-        ul{
-            margin: 0 auto;
-            max-width: 300px;
-        }
-    }
-
-    .directors {
-        margin-left: 20px !important;
-    }
-
-    // profiles
-    .align-right{
-        *{
-            float: none !important;
-            text-align: left !important;
-        }
-        padding: 0 !important;
-    }
-
-    .half-w, .third-w{
-        float: none !important;
-        width: 400px !important;
-        max-width: 92% !important;
-        margin: 30px auto;
-    }
-
-    .person{
-        padding-left: 16px !important;
-        padding-right: 16px !important;
-    }
-}
-
 /**
 * Team
 */
@@ -1182,99 +1117,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     }
 }
 
-@media( max-width: 920px ) {
-
-    .home{
-
-        .svg-icon{
-            width: 160px;
-            height: 160px;
-        }
-        .icon-details{
-            max-width: 280px;
-        }
-
-        // line 1
-        #line-one{
-            height: 1000px;
-            width: 300px;
-            background-image: url('/images/home-line-1-small.svg');
-        }
-        #svg-movellus{
-            margin-bottom: -2px;
-            margin-top: -80px;
-        }
-        #svg-clock{
-            left: 70px;
-            top: 170px;
-        }
-        #clock{
-            left: 0;
-            top: 360px;
-        }
-        #svg-chip{
-            top: 705px;
-        }
-        #chip{
-            top: 920px;
-            left: 10px;
-        }
-
-        // line 2 + 3
-        #line-two-three{
-            background-image: url('/images/home-line-2-3-small.svg');
-            width: 310px;
-            margin-top: 220px;
-        }
-        #svg-battery{
-            left: 70px;
-            top: -80px;
-        }
-        #battery{
-            left: 10px;
-            top: 120px;
-        }
-        #svg-spiral{
-            left: 70px;
-            top: 284px;
-        }
-        #scalable{
-            left: 15px;
-            top: 475px;
-            font-size: 17px;
-            h2{
-                letter-spacing: $medium-kerning / 2;
-            }
-        }
-        #svg-tangram{
-            top: 685px;
-            left: 70px;
-        }
-        #svg-graph{
-            left: 75px;
-            top: 1100px;
-        }
-        #graph{
-            left: 15px;
-            top: 1290px;
-        }
-
-        #shield{
-            margin-top: 120px;
-            padding-top: $spacing-unit * 3;
-        }
-        #svg-shield{
-            left: -77px;
-            top: -158px;
-        }
-        #line-four{
-            margin-top: 190px;
-        }
-
-    }
-
-}
-
 .icon-details{
     width: 480px;
     position: absolute;
@@ -1485,4 +1327,153 @@ header, .full-width {
     0%{background-position:0% 94%}
     50%{background-position:100% 7%}
     100%{background-position:0% 94%}
+}
+
+@media( max-width: 900px ) {
+
+    .home{
+      // line 1
+      #line-one{
+        height: 2000px;
+        width: 304px;
+        background-image: url('/images/outlines/outline-mobile-c.svg');
+        margin: 0 auto;
+      }
+
+        .svg-icon{
+            width: 160px;
+            height: 160px;
+        }
+        .icon-details{
+            max-width: 280px;
+        }
+
+        #svg-movellus{
+            margin-bottom: -2px;
+            margin-top: -80px;
+        }
+        #svg-clock{
+            left: 70px;
+            top: 230px;
+        }
+        #clock{
+            left: 0;
+            top: 410px;
+        }
+        #svg-chip{
+            top: 705px;
+            left: 70px;
+        }
+        #chip{
+            top: 920px;
+            left: 10px;
+        }
+
+        #svg-battery{
+            left: 70px;
+            top: 1150px;
+        }
+        #battery{
+            left: 10px;
+            top: 1340px;
+        }
+        #svg-spiral{
+            left: 70px;
+            top: 284px;
+        }
+        #scalable{
+            left: 15px;
+            top: 475px;
+            font-size: 17px;
+            h2{
+                letter-spacing: $medium-kerning / 2;
+            }
+        }
+        #svg-tangram{
+            top: 685px;
+            left: 70px;
+        }
+        #svg-graph{
+            left: 75px;
+            top: 1100px;
+        }
+        #graph{
+            left: 15px;
+            top: 1290px;
+        }
+
+        #shield{
+          top: 1760px;
+          left: 10px;
+        }
+        #svg-shield{
+            left: 70px;
+            top: 1564px;
+        }
+        #line-four{
+            margin-top: 190px;
+        }
+    }
+}
+
+
+
+@media(max-width: 885px) {
+    #happened-wrapper{
+        margin-top: 50px;
+
+        #happened{
+            width: 100vw;
+            height: 150px;
+            position: relative;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+    }
+    #lines, #facts, #dates{
+        display: none;
+    }
+
+    #analog-waves{
+        position: absolute;
+        left: 50%;
+        height: 410px;
+        margin-left: -445px; /* half of the width */
+    }
+    .event-label{
+        display: inline;
+        letter-spacing: 1px !important;
+        color: #011022;
+        font-weight: bold;
+    }
+
+    #details{
+        padding-top: 40px;
+        margin: 0 auto 50px;
+        ul{
+            margin: 0 auto;
+            max-width: 300px;
+        }
+    }
+
+    .directors {
+        margin-left: 0px !important;
+        display: block;
+        width: inherit;
+    }
+
+    // profiles
+    .person{
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        flex-grow: 0;
+        width: inherit;
+        display: inherit;
+        max-width: inherit;
+
+        p{
+          max-width: 300px;
+          margin: 10px auto;
+        }
+    }
 }

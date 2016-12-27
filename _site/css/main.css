@@ -742,56 +742,6 @@ input:-moz-placeholder {
 .purple {
   color: #3F206E; }
 
-@media (max-width: 885px) {
-  #happened-wrapper {
-    margin-top: -100px; }
-    #happened-wrapper #happened {
-      width: 100vw;
-      height: 150px;
-      position: relative;
-      overflow-y: hidden;
-      overflow-x: hidden; }
-
-  #lines, #facts, #dates {
-    display: none; }
-
-  #analog-waves {
-    position: absolute;
-    left: 50%;
-    height: 410px;
-    margin-left: -445px;
-    /* half of the width */ }
-
-  .event-label {
-    display: inline;
-    letter-spacing: 1px !important;
-    color: #011022;
-    font-weight: bold; }
-
-  #details {
-    padding-top: 40px; }
-    #details ul {
-      margin: 0 auto;
-      max-width: 300px; }
-
-  .directors {
-    margin-left: 20px !important; }
-
-  .align-right {
-    padding: 0 !important; }
-    .align-right * {
-      float: none !important;
-      text-align: left !important; }
-
-  .half-w, .third-w {
-    float: none !important;
-    width: 400px !important;
-    max-width: 92% !important;
-    margin: 30px auto; }
-
-  .person {
-    padding-left: 16px !important;
-    padding-right: 16px !important; } }
 /**
 * Team
 */
@@ -1053,66 +1003,6 @@ input:-moz-placeholder {
     background: linear-gradient(to bottom, #3f206e 0%, white 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f206e', endColorstr='#ffffff', GradientType=0 ); }
 
-@media (max-width: 920px) {
-  .home .svg-icon {
-    width: 160px;
-    height: 160px; }
-  .home .icon-details {
-    max-width: 280px; }
-  .home #line-one {
-    height: 1000px;
-    width: 300px;
-    background-image: url("/images/home-line-1-small.svg"); }
-  .home #svg-movellus {
-    margin-bottom: -2px;
-    margin-top: -80px; }
-  .home #svg-clock {
-    left: 70px;
-    top: 170px; }
-  .home #clock {
-    left: 0;
-    top: 360px; }
-  .home #svg-chip {
-    top: 705px; }
-  .home #chip {
-    top: 920px;
-    left: 10px; }
-  .home #line-two-three {
-    background-image: url("/images/home-line-2-3-small.svg");
-    width: 310px;
-    margin-top: 220px; }
-  .home #svg-battery {
-    left: 70px;
-    top: -80px; }
-  .home #battery {
-    left: 10px;
-    top: 120px; }
-  .home #svg-spiral {
-    left: 70px;
-    top: 284px; }
-  .home #scalable {
-    left: 15px;
-    top: 475px;
-    font-size: 17px; }
-    .home #scalable h2 {
-      letter-spacing: 1.5px; }
-  .home #svg-tangram {
-    top: 685px;
-    left: 70px; }
-  .home #svg-graph {
-    left: 75px;
-    top: 1100px; }
-  .home #graph {
-    left: 15px;
-    top: 1290px; }
-  .home #shield {
-    margin-top: 120px;
-    padding-top: 90px; }
-  .home #svg-shield {
-    left: -77px;
-    top: -158px; }
-  .home #line-four {
-    margin-top: 190px; } }
 .icon-details {
   width: 480px;
   position: absolute;
@@ -1257,8 +1147,7 @@ header, .full-width {
   background-size: 600% 600%;
   -webkit-animation: movellus 15s ease infinite;
   -moz-animation: movellus 15s ease infinite;
-  animation: movellus 15s ease infinite;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#821d93+0,5d4784+100;movellus */ }
+  animation: movellus 15s ease infinite; }
 
 #home-banner {
   background: url("/images/bg-puzz-min.png"), linear-gradient(224deg, #402665, #311c3f, #5117b2);
@@ -1288,3 +1177,109 @@ header, .full-width {
     background-position: 100% 7%; }
   100% {
     background-position: 0% 94%; } }
+@media (max-width: 900px) {
+  .home #line-one {
+    height: 2000px;
+    width: 304px;
+    background-image: url("/images/outlines/outline-mobile-c.svg");
+    margin: 0 auto; }
+  .home .svg-icon {
+    width: 160px;
+    height: 160px; }
+  .home .icon-details {
+    max-width: 280px; }
+  .home #svg-movellus {
+    margin-bottom: -2px;
+    margin-top: -80px; }
+  .home #svg-clock {
+    left: 70px;
+    top: 230px; }
+  .home #clock {
+    left: 0;
+    top: 410px; }
+  .home #svg-chip {
+    top: 705px;
+    left: 70px; }
+  .home #chip {
+    top: 920px;
+    left: 10px; }
+  .home #svg-battery {
+    left: 70px;
+    top: 1150px; }
+  .home #battery {
+    left: 10px;
+    top: 1340px; }
+  .home #svg-spiral {
+    left: 70px;
+    top: 284px; }
+  .home #scalable {
+    left: 15px;
+    top: 475px;
+    font-size: 17px; }
+    .home #scalable h2 {
+      letter-spacing: 1.5px; }
+  .home #svg-tangram {
+    top: 685px;
+    left: 70px; }
+  .home #svg-graph {
+    left: 75px;
+    top: 1100px; }
+  .home #graph {
+    left: 15px;
+    top: 1290px; }
+  .home #shield {
+    top: 1760px;
+    left: 10px; }
+  .home #svg-shield {
+    left: 70px;
+    top: 1564px; }
+  .home #line-four {
+    margin-top: 190px; } }
+@media (max-width: 885px) {
+  #happened-wrapper {
+    margin-top: 50px; }
+    #happened-wrapper #happened {
+      width: 100vw;
+      height: 150px;
+      position: relative;
+      overflow-y: hidden;
+      overflow-x: hidden; }
+
+  #lines, #facts, #dates {
+    display: none; }
+
+  #analog-waves {
+    position: absolute;
+    left: 50%;
+    height: 410px;
+    margin-left: -445px;
+    /* half of the width */ }
+
+  .event-label {
+    display: inline;
+    letter-spacing: 1px !important;
+    color: #011022;
+    font-weight: bold; }
+
+  #details {
+    padding-top: 40px;
+    margin: 0 auto 50px; }
+    #details ul {
+      margin: 0 auto;
+      max-width: 300px; }
+
+  .directors {
+    margin-left: 0px !important;
+    display: block;
+    width: inherit; }
+
+  .person {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    flex-grow: 0;
+    width: inherit;
+    display: inherit;
+    max-width: inherit; }
+    .person p {
+      max-width: 300px;
+      margin: 10px auto; } }
