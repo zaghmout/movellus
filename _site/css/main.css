@@ -1141,42 +1141,30 @@ header, .full-width {
   margin: 0 auto;
   padding: 0.25em 0.625em; }
 
+#header-team {
+  background-image: url("/images/covers/optmized/team-purple-min.png"); }
+
+#header-contact {
+  background-image: url("/images/covers/optmized/contact-purple-min.png"); }
+
+#header-tech {
+  background-image: url("/images/covers/optmized/tech-purple-min.png"); }
+
+#header-hist {
+  background-image: url("/images/covers/optmized/history-purple-min.png"); }
+
 .header-bg {
   color: white;
-  background: linear-gradient(224deg, #402665, #4b13bb, #5117b2, #8609aa);
-  background-size: 600% 600%;
-  -webkit-animation: movellus 15s ease infinite;
-  -moz-animation: movellus 15s ease infinite;
-  animation: movellus 15s ease infinite; }
+  background-color: #3F206E;
+  background-position: center;
+  -webkit-background-position: center;
+  -moz-background-position: center;
+  -o-background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-#home-banner {
-  background: url("/images/bg-puzz-min.png"), linear-gradient(224deg, #402665, #311c3f, #5117b2);
-  background-size: 600%, 600% 600%;
-  -webkit-animation: movellus 30s ease infinite;
-  -moz-animation: movellus 30s ease infinite;
-  animation: movellus 30s ease infinite; }
-
-@-webkit-keyframes movellus {
-  0% {
-    background-position: 0% 94%; }
-  50% {
-    background-position: 100% 7%; }
-  100% {
-    background-position: 0% 94%; } }
-@-moz-keyframes movellus {
-  0% {
-    background-position: 0% 94%; }
-  50% {
-    background-position: 100% 7%; }
-  100% {
-    background-position: 0% 94%; } }
-@keyframes movellus {
-  0% {
-    background-position: 0% 94%; }
-  50% {
-    background-position: 100% 7%; }
-  100% {
-    background-position: 0% 94%; } }
 @media (max-width: 900px) {
   .home #line-one {
     height: 2000px;
