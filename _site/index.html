@@ -21,7 +21,7 @@
 
   
   <link rel="canonical" 
-        href="http://0.0.0.0:4000/">
+        href="http://blog.movelluscircuits.com//">
 
 
   <link rel="stylesheet" 
@@ -31,7 +31,7 @@
   <link rel="alternate" 
         type="application/rss+xml" 
         title="Movellus" 
-        href="http://0.0.0.0:4000/feed.xml" />
+        href="http://blog.movelluscircuits.com//feed.xml" />
 </head>
 
 
@@ -58,32 +58,10 @@
       </a>
 
       <div class="trigger">
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            <a class="nav-link" href="/technology/">&nbsp;TECHNOLOGY</a>
-          
-        
-          
-            <a class="nav-link" href="/company/">&nbsp;COMPANY</a>
-          
-        
-          
-            <a class="nav-link" href="/news/">&nbsp;NEWS</a>
-          
-        
-          
-            <a class="nav-link" href="/contact/">&nbsp;CONTACT</a>
-          
-        
+            <a class="nav-link" href="#header-tech">&nbsp; TECHNOLOGY</a>
+            <a class="nav-link" href="#header-hist">&nbsp; HISTORY</a>
+            <a class="nav-link" href="#header-team">&nbsp; TEAM</a>
+            <a class="nav-link" href="#header-contact">&nbsp; CONTACT</a>
       </div>
     </nav>
 
@@ -97,7 +75,7 @@
     <div id="home-banner">
       <div class="vertical-align">
         <h1 class="heading">
-          Software for Architectural Optimization of SoC
+          Software for Architectural Optimization of SoCs
         </h1>
       </div>
     </div>
@@ -521,7 +499,7 @@
                   DR. JEFFREY FREDENBURG
               </h2>
               <h3 itemprop="jobtitle">
-                  VP of Engineer &amp; Co-Founder
+                  VP of Engineering &amp; Co-Founder
               </h3>
               <p itemprop="description">
                   <span class='invisible'>
@@ -625,7 +603,7 @@
                     <img src="/images/team/muhammad-faisal.jpg" alt="">
                 </div>
                 <h2 itemprop="name">
-                    MUHAMMAD FAISAL
+                    Dr. MUHAMMAD FAISAL
                 </h2>
                 <h3 itemprop="jobtitle">
                     Director
@@ -636,7 +614,7 @@
                     <br>
                     -
                     <br>
-                        He received a B.S. degree in electrical engineering from the University of Waterloo, Canada, and M.S. and Ph.D. degrees in electrical engineering from the University of Michigan, where he developed Movellus’ innovative technology under the supervision of Dr. David Wentzloff. He has authored over ten technical papers in the filed of mixed-signal design, digital signal processing and nuclear particle detection.
+                        He received a B.S. degree in electrical engineering from the University of Waterloo, Canada, and M.S. and Ph.D. degrees in electrical engineering from the University of Michigan, where he developed Movellus’ innovative technology under the supervision of Dr. David Wentzloff. He has authored over ten technical papers in the fields of mixed-signal design, digital signal processing and nuclear particle detection.
                     </span>
                 </p>
 
@@ -832,6 +810,37 @@
 
 </div><!-- end-content -->
 
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col center-col">
+          
+        <h2 class="footer-heading">
+          MOVELLUS © 2016
+        </h2>
+
+
+    
+        <a href="https://twitter.com/movellus">
+          <span class="username">
+            <small>
+              follow us on <u>twitter</u>
+            </small>
+          </span>
+        </a>
+    
+
+    </div>
+  </div>
+
+</footer>
+
+   
+<!-- Javascripts at the bottom to not block rendering -->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300|Montserrat' rel='stylesheet' type='text/css'>
 <!--  JS -->
 <script>
 
@@ -914,42 +923,6 @@
   }
 
 </script>
-<script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRIOY5vRxlSi-rRVwTnrFiNJTVyJVyQI0&callback=initMap">
-</script>
-
-
-    <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <div class="footer-col center-col">
-          
-        <h2 class="footer-heading">
-          MOVELLUS © 2016
-        </h2>
-
-
-    
-        <a href="https://twitter.com/movellus">
-          <span class="username">
-            <small>
-              follow us on <u>twitter</u>
-            </small>
-          </span>
-        </a>
-    
-
-    </div>
-  </div>
-
-</footer>
-
-   
-<!-- Javascripts at the bottom to not block rendering -->
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300|Montserrat' rel='stylesheet' type='text/css'>
-
 <script type="text/javascript">
     
     $(function(){
@@ -991,27 +964,20 @@
 </script>
 
 <script>
-  // // for tech page
-  // $('li.taphover').on("touchstart mouseover", function (e) {
-  //     "use strict"; //satisfy the code inspectors
-  //     var label = $(this); //preselect the label
-  //     if (label.hasClass('active-label')) {
-  //         return true;
-  //     } else {
-  //         label.addClass("active-label");
-          
-  //         var gif = $('ul#gif-list li:eq(' + label.index() + ')');
-  //         gif.addClass('active-gif');
-
-  //         $('ul#gif-list li').not(gif).removeClass('active-gif');
-          
-  //         $('li.taphover').not(this).removeClass("active-label");
-  //         e.preventDefault();
-  //         return false; //extra, and to make sure the function has consistent return points
-  //     }
-  // });
+var $root = $('html, body');
+$('a').click(function() {
+    var href = $.attr(this, 'href');
+    $root.animate({
+        scrollTop: ($(href).offset().top - 50)
+    }, 500, function () {
+        window.location.hash = href;
+    });
+    return false;
+});
 </script>
-
+<script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRIOY5vRxlSi-rRVwTnrFiNJTVyJVyQI0&callback=initMap">
+</script>
 
 </body>
 

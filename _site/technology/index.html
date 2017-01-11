@@ -21,7 +21,7 @@
 
   
   <link rel="canonical" 
-        href="http://0.0.0.0:4000/technology/">
+        href="http://blog.movelluscircuits.com//technology/">
 
 
   <link rel="stylesheet" 
@@ -31,7 +31,7 @@
   <link rel="alternate" 
         type="application/rss+xml" 
         title="Movellus" 
-        href="http://0.0.0.0:4000/feed.xml" />
+        href="http://blog.movelluscircuits.com//feed.xml" />
 </head>
 
 
@@ -58,32 +58,10 @@
       </a>
 
       <div class="trigger">
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            <a class="nav-link" href="/technology/">&nbsp;TECHNOLOGY</a>
-          
-        
-          
-            <a class="nav-link" href="/company/">&nbsp;COMPANY</a>
-          
-        
-          
-            <a class="nav-link" href="/news/">&nbsp;NEWS</a>
-          
-        
-          
-            <a class="nav-link" href="/contact/">&nbsp;CONTACT</a>
-          
-        
+            <a class="nav-link" href="#header-tech">&nbsp; TECHNOLOGY</a>
+            <a class="nav-link" href="#header-hist">&nbsp; HISTORY</a>
+            <a class="nav-link" href="#header-team">&nbsp; TEAM</a>
+            <a class="nav-link" href="#header-contact">&nbsp; CONTACT</a>
       </div>
     </nav>
 
@@ -212,7 +190,88 @@
 <!-- Javascripts at the bottom to not block rendering -->
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300|Montserrat' rel='stylesheet' type='text/css'>
+<!--  JS -->
+<script>
 
+    var placeholder_wallet = document.getElementById('gif-wallet'),
+        placeholder_badges = document.getElementById('gif-badges'),
+        placeholder_tomato = document.getElementById('gif-tomato');
+
+    var gif_wallet = new Image,
+        gif_badges = new Image,
+        gif_tomato = new Image;
+
+    gif_wallet.onload = function()
+    { placeholder_wallet.src = this.src; }
+    gif_wallet.src = 'http://movelluscircuits.com/images/gif/wallet.gif';
+
+    gif_badges.onload = function()
+    { placeholder_badges.src = this.src; }
+    gif_badges.src = 'http://movelluscircuits.com/images/gif/badges.gif';
+
+    gif_tomato.onload = function()
+    { placeholder_tomato.src = this.src; }
+
+    gif_tomato.src = 'http://movelluscircuits.com/images/gif/tomato.gif';
+
+</script>
+<script type="text/javascript">
+
+  function initMap() {
+    // Specify features and elements to define styles.
+    var styleArray = [
+      { "elementType": "geometry.fill",
+        "stylers": [
+                      { "visibility": "on" },
+                      { "hue": "#7f00ff" }
+                    ]
+      },
+      { "featureType": "road.local",
+        "elementType": "geometry.fill",
+        "stylers":  [
+                      { "visibility": "on" },
+                      { "color": "#8D7AA8" }
+                    ]
+      },
+      { "featureType": "landscape.man_made",
+        "elementType": "geometry.stroke",
+        "stylers":  [
+                      { "color": "#472B75" },
+                      { "visibility": "on" },
+                      { "weight": 0.1 }
+                    ]
+      },
+      { "featureType": "road.arterial",
+        "elementType": "geometry.fill",
+        "stylers":  [
+                      { "visibility": "on" },
+                      { "color": "#3F206E" },
+                      { "saturation": -53 },
+                      { "lightness": 18 }
+                    ]
+      }
+    ];
+
+    var movLatLng = {lat: 42.2795502, lng: -83.7427918};
+    // Create a map object and specify the DOM element for display.
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: movLatLng,
+      scrollwheel: false,
+      // Apply the map style array to the map.
+      styles: styleArray,
+      zoom: 17
+    });
+
+    var marker = new google.maps.Marker({
+      position: movLatLng,
+      map: map,
+      animation: google.maps.Animation.DROP,
+      icon: "/images/purple-marker.png",
+      title: 'Movellus'
+    });
+  }
+
+</script>
 <script type="text/javascript">
     
     $(function(){
@@ -254,27 +313,20 @@
 </script>
 
 <script>
-  // // for tech page
-  // $('li.taphover').on("touchstart mouseover", function (e) {
-  //     "use strict"; //satisfy the code inspectors
-  //     var label = $(this); //preselect the label
-  //     if (label.hasClass('active-label')) {
-  //         return true;
-  //     } else {
-  //         label.addClass("active-label");
-          
-  //         var gif = $('ul#gif-list li:eq(' + label.index() + ')');
-  //         gif.addClass('active-gif');
-
-  //         $('ul#gif-list li').not(gif).removeClass('active-gif');
-          
-  //         $('li.taphover').not(this).removeClass("active-label");
-  //         e.preventDefault();
-  //         return false; //extra, and to make sure the function has consistent return points
-  //     }
-  // });
+var $root = $('html, body');
+$('a').click(function() {
+    var href = $.attr(this, 'href');
+    $root.animate({
+        scrollTop: ($(href).offset().top - 50)
+    }, 500, function () {
+        window.location.hash = href;
+    });
+    return false;
+});
 </script>
-
+<script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRIOY5vRxlSi-rRVwTnrFiNJTVyJVyQI0&callback=initMap">
+</script>
 
 </body>
 

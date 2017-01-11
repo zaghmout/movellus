@@ -8,7 +8,7 @@ layout: default
     <div id="home-banner">
       <div class="vertical-align">
         <h1 class="heading">
-          Software for Architectural Optimization of SoC
+          Software for Architectural Optimization of SoCs
         </h1>
       </div>
     </div>
@@ -432,7 +432,7 @@ layout: default
                   DR. JEFFREY FREDENBURG
               </h2>
               <h3 itemprop="jobtitle">
-                  VP of Engineer &amp; Co-Founder
+                  VP of Engineering &amp; Co-Founder
               </h3>
               <p itemprop="description">
                   <span class='invisible'>
@@ -536,7 +536,7 @@ layout: default
                     <img src="{{ "/images/team/muhammad-faisal.jpg" | prepend: site.baseurl }}" alt="">
                 </div>
                 <h2 itemprop="name">
-                    MUHAMMAD FAISAL
+                    Dr. MUHAMMAD FAISAL
                 </h2>
                 <h3 itemprop="jobtitle">
                     Director
@@ -547,7 +547,7 @@ layout: default
                     <br>
                     -
                     <br>
-                        He received a B.S. degree in electrical engineering from the University of Waterloo, Canada, and M.S. and Ph.D. degrees in electrical engineering from the University of Michigan, where he developed Movellus’ innovative technology under the supervision of Dr. David Wentzloff. He has authored over ten technical papers in the filed of mixed-signal design, digital signal processing and nuclear particle detection.
+                        He received a B.S. degree in electrical engineering from the University of Waterloo, Canada, and M.S. and Ph.D. degrees in electrical engineering from the University of Michigan, where he developed Movellus’ innovative technology under the supervision of Dr. David Wentzloff. He has authored over ten technical papers in the fields of mixed-signal design, digital signal processing and nuclear particle detection.
                     </span>
                 </p>
 
@@ -742,89 +742,3 @@ layout: default
   </div>
 
 </div><!-- end-content -->
-
-<!--  JS -->
-<script>
-
-    var placeholder_wallet = document.getElementById('gif-wallet'),
-        placeholder_badges = document.getElementById('gif-badges'),
-        placeholder_tomato = document.getElementById('gif-tomato');
-
-    var gif_wallet = new Image,
-        gif_badges = new Image,
-        gif_tomato = new Image;
-
-    gif_wallet.onload = function()
-    { placeholder_wallet.src = this.src; }
-    gif_wallet.src = 'http://movelluscircuits.com/images/gif/wallet.gif';
-
-    gif_badges.onload = function()
-    { placeholder_badges.src = this.src; }
-    gif_badges.src = 'http://movelluscircuits.com/images/gif/badges.gif';
-
-    gif_tomato.onload = function()
-    { placeholder_tomato.src = this.src; }
-
-    gif_tomato.src = 'http://movelluscircuits.com/images/gif/tomato.gif';
-
-</script>
-<script type="text/javascript">
-
-  function initMap() {
-    // Specify features and elements to define styles.
-    var styleArray = [
-      { "elementType": "geometry.fill",
-        "stylers": [
-                      { "visibility": "on" },
-                      { "hue": "#7f00ff" }
-                    ]
-      },
-      { "featureType": "road.local",
-        "elementType": "geometry.fill",
-        "stylers":  [
-                      { "visibility": "on" },
-                      { "color": "#8D7AA8" }
-                    ]
-      },
-      { "featureType": "landscape.man_made",
-        "elementType": "geometry.stroke",
-        "stylers":  [
-                      { "color": "#472B75" },
-                      { "visibility": "on" },
-                      { "weight": 0.1 }
-                    ]
-      },
-      { "featureType": "road.arterial",
-        "elementType": "geometry.fill",
-        "stylers":  [
-                      { "visibility": "on" },
-                      { "color": "#3F206E" },
-                      { "saturation": -53 },
-                      { "lightness": 18 }
-                    ]
-      }
-    ];
-
-    var movLatLng = {lat: 42.2795502, lng: -83.7427918};
-    // Create a map object and specify the DOM element for display.
-    var map = new google.maps.Map(document.getElementById('map'), {
-      center: movLatLng,
-      scrollwheel: false,
-      // Apply the map style array to the map.
-      styles: styleArray,
-      zoom: 17
-    });
-
-    var marker = new google.maps.Marker({
-      position: movLatLng,
-      map: map,
-      animation: google.maps.Animation.DROP,
-      icon: "{{'/images/purple-marker.png' | prepend: site.baseurl }}",
-      title: 'Movellus'
-    });
-  }
-
-</script>
-<script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRIOY5vRxlSi-rRVwTnrFiNJTVyJVyQI0&callback=initMap">
-</script>
