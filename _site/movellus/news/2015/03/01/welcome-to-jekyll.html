@@ -274,7 +274,8 @@ $(document).ready(function(){
 
 <script>
 var $root = $('html, body');
-$('a').click(function() {
+$('.trigger a').click(function() {
+    $('#nav-icon').removeClass("open");
     var href = $.attr(this, 'href');
     $root.animate({
         scrollTop: ($(href).offset().top - 50)

@@ -597,7 +597,7 @@
                     <img src="/images/team/muhammad-faisal.jpg" alt="">
                 </div>
                 <h2 itemprop="name">
-                    Dr. MUHAMMAD FAISAL
+                    DR. MUHAMMAD FAISAL
                 </h2>
                 <h3 itemprop="jobtitle">
                     Director
@@ -963,7 +963,8 @@ $(document).ready(function(){
 
 <script>
 var $root = $('html, body');
-$('a').click(function() {
+$('.trigger a').click(function() {
+    $('#nav-icon').removeClass("open");
     var href = $.attr(this, 'href');
     $root.animate({
         scrollTop: ($(href).offset().top - 50)
