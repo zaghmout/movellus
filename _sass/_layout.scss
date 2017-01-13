@@ -476,7 +476,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .post-title {
     text-align: center;
     font-size: 42px;
-    // max-width: 800px;
     margin: 0 auto 15px;
     line-height: 1.4;
     max-width: 800px;
@@ -661,7 +660,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
         &:hover{
             text-decoration: underline;
-            // text-decoration: none;
             opacity: 0.9;
         }
     }
@@ -695,7 +693,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
         white-space: nowrap;
         overflow: hidden;
         width: 90em;
-        // width: 0;
 
 
         &:nth-child(1){
@@ -1377,30 +1374,6 @@ header, .full-width {
   -o-background-size: cover;
   background-size: cover;
 }
-// #home-banner{
-//   background: url('/images/bg-puzz-min.png'), linear-gradient(224deg, #402665, #311c3f, #5117b2);
-//   background-size: 600%, 600% 600%;
-//
-//   -webkit-animation: movellus 30s ease infinite;
-//   -moz-animation: movellus 30s ease infinite;
-//   animation: movellus 30s ease infinite;
-// }
-
-// @-webkit-keyframes movellus {
-//     0%{background-position:0% 94%}
-//     50%{background-position:100% 7%}
-//     100%{background-position:0% 94%}
-// }
-// @-moz-keyframes movellus {
-//     0%{background-position:0% 94%}
-//     50%{background-position:100% 7%}
-//     100%{background-position:0% 94%}
-// }
-// @keyframes movellus {
-//     0%{background-position:0% 94%}
-//     50%{background-position:100% 7%}
-//     100%{background-position:0% 94%}
-// }
 
 @media( max-width: 900px ) {
 
