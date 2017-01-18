@@ -192,17 +192,16 @@
 /**
  * Banner
  */
- #white{
+#white{
     background-color: white;
     padding-top: 1px;
     margin-top: 450px;
+
     @include media-query(600px) {
         margin-top: 100vh;
     }
- }
- .box-shadow{
-    box-shadow: 0 -10px 50px #423463;
- }
+}
+
 #home-banner{
     position: fixed;
     width: 100vw;
@@ -216,24 +215,13 @@
     height: 450px;
     color: white;
     font-size: 7px;
+   
     @include media-query(600px) {
         height: 100vh;
     }
+   
     .vertical-align{
         @include vertical-align();
-
-        svg{
-            margin: 0px auto;
-            width: 600px;
-            display: block;
-            padding: 0px 6px 0;
-            @include media-query(600px) {
-                width: 400px;
-            }
-            @include media-query(400px) {
-                width: 320px;
-            }
-        }
 
         h1{
             text-shadow: 0 0 5px black;
@@ -246,42 +234,7 @@
             }
         }
     }
-
-
 }
-
-
-/**
- * Master Button
- */
-
-#master-btn{
-    display: block;
-    text-align: center;
-    padding: 15px $spacing-unit;
-    border-radius: 5px;
-    margin: 20px auto 100px;
-    color: $brand-color;
-    width: 200px;
-    border: 1px solid $brand-color;
-    font-family: $strong-font-family;
-
-    -webkit-transition: background-color 0.4s ease;
-            transition: background-color 0.4s ease;
-
-    -webkit-transition: color 0.6s ease-out;
-            transition: color 0.6s ease-out;
-
-    &:hover{
-        text-decoration: none;
-        background-color: $brand-color;
-        color: white;
-
-         -webkit-transition: background-color 1s;
-
-    }
-}
-
 
 /**
  * Site footer
@@ -290,14 +243,14 @@
     margin-top: $spacing-unit * 2;
     padding: ($spacing-unit * 3) $spacing-unit ;
 
-background: rgba(255,255,255,0.53);
-background: -moz-linear-gradient(top, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.53)), color-stop(100%, rgba(63,32,110,0.31)));
-background: -webkit-linear-gradient(top, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
-background: -o-linear-gradient(top, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
-background: -ms-linear-gradient(top, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
-background: linear-gradient(to bottom, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#3f206e', GradientType=0 );
+    background: rgba(255,255,255,0.53);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.53)), color-stop(100%, rgba(63,32,110,0.31)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.53) 0%, rgba(63,32,110,0.31) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#3f206e', GradientType=0 );
 
     font-family: $strong-font-family;
 
@@ -320,7 +273,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     padding-left: $spacing-unit / 2;
 }
 .center-col{
-
     text-align: center;
     width: 310px;
     display: block;
@@ -345,7 +297,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     max-width: 100vw;
     overflow-x: hidden;
 }
-
 
 /**
 * Contacts
@@ -386,7 +337,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
                 width: 80px;
             }
         }
-
     }
 }
 .center{
@@ -415,7 +365,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     }
 
 #contact-form{
-
     input, textarea{
         padding-left: 10px;
     }
@@ -443,7 +392,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
             float: none;
             margin: 10px 2vw !important;
         }
-
     }
 
     textarea{
@@ -468,30 +416,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 // CONTACT US
+// .contact-us{
 
-.contact-us{
+//     p{
+//         text-align: center;
+//         font-size: 20px;
+//         margin: $spacing-unit;
+//     }
+//     svg{
+//         display: block;
+//         margin: 0 auto;
+//     }
+//     a{
+//         font-weight: $regular-font;
 
-    p{
-        text-align: center;
-        font-size: 20px;
-        margin: $spacing-unit;
-    }
-
-
-    svg{
-        display: block;
-        margin: 0 auto;
-    }
-
-    a{
-        font-weight: $regular-font;
-
-        &:hover{
-            text-decoration: underline;
-            opacity: 0.9;
-        }
-    }
-}
+//         &:hover{
+//             text-decoration: underline;
+//             opacity: 0.9;
+//         }
+//     }
+// }
 
 
 /**
@@ -521,7 +465,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
         white-space: nowrap;
         overflow: hidden;
         width: 90em;
-
 
         &:nth-child(1){
             top: 160px;
@@ -568,8 +511,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 #lines{
-
-
     width: 168px;
     margin: 0 auto;
     position: relative;
@@ -598,15 +539,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
         li{
             margin-top: 24px;
-            -webkit-animation: fadeInUp 1s ease-out forwards;
-            animation-name: fadeInUp 1s ease-out forwards;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-            &:nth-child(1){ -webkit-animation-delay: 0.2s; animation-delay: 0.2s }
-            &:nth-child(2){ -webkit-animation-delay: 0.6s; animation-delay: 0.6s }
-            &:nth-child(3){ -webkit-animation-delay: 1s; animation-delay: 1s }
-            &:nth-child(4){ -webkit-animation-delay: 1.3; animation-delay: 1.3s }
-            &:nth-child(5){ -webkit-animation-delay: 1.6; animation-delay: 1.6s }
+            // // -webkit-animation: fadeInUp 1s ease-out forwards;
+            // // animation-name: fadeInUp 1s ease-out forwards;
+            // // -webkit-animation-fill-mode: both;
+            // animation-fill-mode: both;
+            // &:nth-child(1){ -webkit-animation-delay: 0.2s; animation-delay: 0.2s }
+            // &:nth-child(2){ -webkit-animation-delay: 0.6s; animation-delay: 0.6s }
+            // &:nth-child(3){ -webkit-animation-delay: 1s; animation-delay: 1s }
+            // &:nth-child(4){ -webkit-animation-delay: 1.3; animation-delay: 1.3s }
+            // &:nth-child(5){ -webkit-animation-delay: 1.6; animation-delay: 1.6s }
 
             span{
                 font-family: $strong-font-family;
@@ -617,14 +558,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     }
 }
 
-.fadeInUp {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-}
+// .fadeInUp {
+//     -webkit-animation-duration: 1s;
+//     animation-duration: 1s;
+//     -webkit-animation-fill-mode: both;
+//     animation-fill-mode: both;
+//     -webkit-animation-timing-function: ease-out;
+//     animation-timing-function: ease-out;
+// }
 
 .purple{
     color: #3F206E;
@@ -729,18 +670,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 
-@-webkit-keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(20px);
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-}
+// @-webkit-keyframes fadeInUp {
+//     0% {
+//         opacity: 0;
+//         -webkit-transform: translateY(20px);
+//         transform: translateY(20px);
+//     }
+//     100% {
+//         opacity: 1;
+//         -webkit-transform: translateY(0);
+//         transform: translateY(0);
+//     }
+// }
 
 /**
 * HOME
@@ -785,15 +726,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
       left: 200px;
     }
 
-    #scalable{
-        top: 550px;
-        left: 145px;
-    }
+    // #scalable{
+    //     top: 550px;
+    //     left: 145px;
+    // }
 
-    #graph{
-        top: 1190px;
-        left: 260px;
-    }
+    // #graph{
+    //     top: 1190px;
+    //     left: 260px;
+    // }
 
     #shield{
       margin: 0px auto;
@@ -819,23 +760,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
         left: 497px;
     }
 
-    #svg-spiral{
-        top: 260px;
-        left: 240px;
-    }
-
     #svg-battery{
       left: -35px;
       top: 1080px;
-    }
-
-    #svg-tangram{
-        top: 790px;
-        left: 240px;
-    }
-
-    #svg-graph{
-        top: 1150px;
     }
 
     #svg-shield{
@@ -843,12 +770,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
       top: 2169px;
     }
 
-    #svg-master-line{
-        width: 80%;
-        height: 80%;
-        margin: 0 auto;
-        display: block;
-    }
+    // #svg-master-line{
+    //     width: 80%;
+    //     height: 80%;
+    //     margin: 0 auto;
+    //     display: block;
+    // }
 
     #line-one{
         height: 2600px;
@@ -877,36 +804,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 
-.banner{
-    padding: $spacing-unit * 4 20px;
-    background-color: $brand-color;
-    color: white;
-    text-align: center;
-    font-family: $strong-font-family;
+// .banner{
+//     padding: $spacing-unit * 4 20px;
+//     background-color: $brand-color;
+//     color: white;
+//     text-align: center;
+//     font-family: $strong-font-family;
 
-    h1{
-        font-size: $base-font-size * 3.5;
-        margin-bottom: 0;
-        letter-spacing: 5px;
-    }
+//     h1{
+//         font-size: $base-font-size * 3.5;
+//         margin-bottom: 0;
+//         letter-spacing: 5px;
+//     }
 
-    p{
-        font-family: $base-font-family;
-        letter-spacing: 5px;
-    }
-}
-
-
-
-// THANKS PAGE
-#thankyou{
-    height: 100vh;padding-top: 77px;
-}
-
-#sweetheart{
-    display: block;
-    margin: 20px auto 80px;
-}
+//     p{
+//         font-family: $base-font-family;
+//         letter-spacing: 5px;
+//     }
+// }
 
 
 // NEW TECH PAGE
@@ -941,10 +856,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .feature-details{
-    div{
-        max-width: 300px;
+    // div{
+    //     max-width: 300px;
 
-    }
+    // }
     strong{
         font-size: 1.2em;
         font-family: $strong-font-family;
@@ -952,11 +867,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     }
 }
 
-.feature-gif ~ .feature-details{
-    div{
-        max-width: 300px;
-    }
-}
+// .feature-gif ~ .feature-details{
+//     div{
+//         max-width: 300px;
+//     }
+// }
 
 #left-half-line, #right-half-line{
     border-bottom: 1px solid #3d2d6b;
@@ -1114,30 +1029,30 @@ header, .full-width {
             left: 10px;
             top: 1340px;
         }
-        #svg-spiral{
-            left: 70px;
-            top: 284px;
-        }
-        #scalable{
-            left: 15px;
-            top: 475px;
-            font-size: 17px;
-            h2{
-                letter-spacing: $medium-kerning / 2;
-            }
-        }
-        #svg-tangram{
-            top: 685px;
-            left: 70px;
-        }
-        #svg-graph{
-            left: 75px;
-            top: 1100px;
-        }
-        #graph{
-            left: 15px;
-            top: 1290px;
-        }
+        // #svg-spiral{
+        //     left: 70px;
+        //     top: 284px;
+        // }
+        // #scalable{
+        //     left: 15px;
+        //     top: 475px;
+        //     font-size: 17px;
+        //     h2{
+        //         letter-spacing: $medium-kerning / 2;
+        //     }
+        // }
+        // #svg-tangram{
+        //     top: 685px;
+        //     left: 70px;
+        // }
+        // #svg-graph{
+        //     left: 75px;
+        //     top: 1100px;
+        // }
+        // #graph{
+        //     left: 15px;
+        //     top: 1290px;
+        // }
 
         #shield{
           top: 1760px;
@@ -1147,9 +1062,9 @@ header, .full-width {
             left: 70px;
             top: 1564px;
         }
-        #line-four{
-            margin-top: 190px;
-        }
+        // #line-four{
+        //     margin-top: 190px;
+        // }
     }
 }
 
