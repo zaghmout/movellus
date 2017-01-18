@@ -538,6 +538,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
         width: 200px;
         text-align: center;
         padding: $spacing-unit / 2;
+        font-size: 15px;
 
         @include media-query(710px) {
             width: 92vw;
@@ -819,21 +820,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   justify-content: center;
 }
 .directors{
-    @include media-query(600px) {
-        margin-left: 5px !important;
+    @include media-query(900px) {
+        width: 100vw;
     }
 
     width: 1020px;
     margin: 50px auto;
-    display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 
 }
 .person{
     @include media-query(600px) {
-        font-size: 18px;
-        letter-spacing: $medium-kerning * 2 / 3;
+        // width: 300px;
+        margin: 10px auto 0;
     }
 
     background: #FFFFFF;
@@ -1510,12 +1517,6 @@ header, .full-width {
             margin: 0 auto;
             max-width: 300px;
         }
-    }
-
-    .directors {
-        margin-left: 0px !important;
-        display: block;
-        width: inherit;
     }
 
     // // profiles
