@@ -79,7 +79,7 @@
 
     @include media-query(770px) {
         position: absolute;
-        top: 18px;
+        top: 25px;
         right: 20px;
         background-color: #fafafa;
         text-align: right;
@@ -87,7 +87,7 @@
         #nav-icon {
             width: 26px;
             height: 26px;
-            padding-top: 10px;
+            // padding-top: 10px;
 
             float: right;
             position: relative;
