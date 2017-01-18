@@ -115,15 +115,20 @@
 
    
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat' rel='stylesheet' type='text/css'>
-<script>
 
+<link href="https://fonts.googleapis.com/css?family=Raleway:300|Montserrat:400" rel="stylesheet">
+
+<!-- HAMBURGER MENU TOGGLE -->
+<script>
 $(document).ready(function(){
     $('#nav-icon').click(function(){
         $(this).toggleClass('open');
     });
 });
+</script>
 
+<!-- optimize gif delivery -->
+<script>
     var placeholder_wallet = document.getElementById('gif-wallet'),
         placeholder_badges = document.getElementById('gif-badges'),
         placeholder_tomato = document.getElementById('gif-tomato');
@@ -146,6 +151,8 @@ $(document).ready(function(){
     gif_tomato.src = 'http://movelluscircuits.com/images/gif/tomato.gif';
 
 </script>
+
+<!-- GOOGLE MAPS -->
 <script type="text/javascript">
 
   function initMap() {
@@ -156,6 +163,15 @@ $(document).ready(function(){
                       { "visibility": "on" },
                       { "hue": "#7f00ff" }
                     ]
+      },
+      {
+        "featureType": 'poi.business',
+        "stylers": [{"visibility": 'off'}]
+      },
+      {
+        "featureType": 'transit',
+        "elementType": 'labels.icon',
+        "stylers": [{"visibility": 'off'}]
       },
       { "featureType": "road.local",
         "elementType": "geometry.fill",
@@ -203,6 +219,7 @@ $(document).ready(function(){
   }
 
 </script>
+<!-- SEE MORE BTN -->
 <script type="text/javascript">
     
     $(function(){
@@ -215,6 +232,7 @@ $(document).ready(function(){
 
 </script>
 
+<!-- HIDE BANNER (find a better solution, dev) -->
 <script>
   var target = $(window).height() * 2;
   var showing = true;
@@ -242,7 +260,7 @@ $(document).ready(function(){
     showing = true;
   }
 </script>
-
+<!-- SCROLL TO ANCHOR -->
 <script>
 var $root = $('html, body');
 $('.trigger a').click(function() {
@@ -256,6 +274,18 @@ $('.trigger a').click(function() {
     return false;
 });
 </script>
+<!-- GOOGLE ANALITICS-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90355640-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRIOY5vRxlSi-rRVwTnrFiNJTVyJVyQI0&callback=initMap">
 </script>
