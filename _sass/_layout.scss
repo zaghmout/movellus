@@ -850,9 +850,22 @@
 }
 
 .feature-gif{
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
-    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    @include media-query(768px){
+
+        height: 300px;
+        padding: 30px 0 5px !important;
+        width: 100% !important;
+
+        img{
+            width: 300px !important;
+            height: 300px !important;
+            margin: 0 auto;
+            display: block;
+        }
+    }
 }
 
 .feature-details{
