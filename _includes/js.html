@@ -314,17 +314,15 @@ $(document).ready(function(){
         if (!showing)
           show_banner();
       }
-  }, 200);
+  }, 500);
 
   var hide_banner = function () {
     $('#home-banner').hide();
-    $('#white').removeClass('box-shadow');
     showing = false;
   }
 
   var show_banner = function () {
     $('#home-banner').show();
-    $('#white').addClass('box-shadow');
     showing = true;
   }
 </script>

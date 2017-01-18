@@ -87,8 +87,6 @@
         #nav-icon {
             width: 26px;
             height: 26px;
-            // padding-top: 10px;
-
             float: right;
             position: relative;
             -webkit-transform: rotate(0deg);
@@ -181,14 +179,6 @@
     }
 }
 
-@mixin vertical-align($position: relative) {
-  position: $position;
-  top: 40%;
-  -webkit-transform: translateY(-40%);
-  -ms-transform: translateY(-40%);
-  transform: translateY(-40%);
-}
-
 /**
  * Banner
  */
@@ -198,7 +188,7 @@
     margin-top: 450px;
 
     @include media-query(600px) {
-        margin-top: 100vh;
+        margin-top: 500px;
     }
 }
 
@@ -218,10 +208,11 @@
    
     @include media-query(600px) {
         height: 100vh;
+        max-height: 500px;
     }
    
     .vertical-align{
-        @include vertical-align();
+        margin-top: 120px;
 
         h1{
             text-shadow: 0 0 5px black;
