@@ -40,46 +40,232 @@ $(document).ready(function(){
   function initMap() {
     // Specify features and elements to define styles.
     var styleArray = [
-      { "elementType": "geometry.fill",
+    {
+        "featureType": "all",
+        "elementType": "geometry",
         "stylers": [
-                      { "visibility": "on" },
-                      { "hue": "#7f00ff" }
-                    ]
-      },
-      {
-        "featureType": 'poi.business',
-        "stylers": [{"visibility": 'off'}]
-      },
-      {
-        "featureType": 'transit',
-        "elementType": 'labels.icon',
-        "stylers": [{"visibility": 'off'}]
-      },
-      { "featureType": "road.local",
+            {
+                "color": "#d8d0e6"
+            }
+        ]
+    },
+    {
+        "featureType": "all",
         "elementType": "geometry.fill",
-        "stylers":  [
-                      { "visibility": "on" },
-                      { "color": "#8D7AA8" }
-                    ]
-      },
-      { "featureType": "landscape.man_made",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#c2bdd2"
+            }
+        ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "gamma": 0.01
+            },
+            {
+                "lightness": "8"
+            },
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#797093"
+            },
+            {
+                "saturation": "14"
+            }
+        ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "saturation": -31
+            },
+            {
+                "lightness": -33
+            },
+            {
+                "weight": 2
+            },
+            {
+                "gamma": 0.8
+            },
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.country",
         "elementType": "geometry.stroke",
-        "stylers":  [
-                      { "color": "#472B75" },
-                      { "visibility": "on" },
-                      { "weight": 0.1 }
-                    ]
-      },
-      { "featureType": "road.arterial",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.locality",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "lightness": 30
+            },
+            {
+                "saturation": 30
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.man_made",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural.landcover",
         "elementType": "geometry.fill",
-        "stylers":  [
-                      { "visibility": "on" },
-                      { "color": "#3F206E" },
-                      { "saturation": -53 },
-                      { "lightness": 18 }
-                    ]
-      }
-    ];
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "saturation": 20
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "lightness": 20
+            },
+            {
+                "saturation": -20
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "lightness": 10
+            },
+            {
+                "saturation": -30
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "saturation": 25
+            },
+            {
+                "lightness": 25
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#604f7a"
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#dcd4e9"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#9289a0"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "lightness": -20
+            }
+        ]
+    }
+];
 
     var movLatLng = {lat: 42.2795502, lng: -83.7427918};
     // Create a map object and specify the DOM element for display.
