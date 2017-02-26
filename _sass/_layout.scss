@@ -933,6 +933,9 @@
     font-size: 30px;
     max-width: 580px;
 }
+.tlh-2{
+    margin-top: 75px;
+}
 #t-subheading{
     text-align: center;
     font-family: $strong-font-family;
@@ -946,6 +949,15 @@
   text-align: center;
   margin-top: 40px;
 }
+.tech-col{
+    height: 150px;
+    text-align: center;
+}
+.tech-col-m{
+    border-left: 1px solid $brand-color;
+    border-right: 1px solid $brand-color;
+}
+
 @media(max-width: 800px){
 
     .flexbox-container{
