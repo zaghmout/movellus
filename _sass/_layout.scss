@@ -1,10 +1,14 @@
+
+$sidebar-width: 120px;
+
 /**
  * Site header
  */
 .site-header {
     z-index: 3;
     position: fixed;
-    padding: 0 10px;
+    // padding: 0 10px;
+    width: $sidebar-width;
     background-color: white;
     // border-bottom: 1px solid $grey-color-light;
     min-height: 70px;
@@ -49,7 +53,7 @@
 }
 
 .site-nav {
-    margin-right: 18px;
+    text-align: center;
     line-height: 70px;
 
     #nav-icon {
@@ -290,6 +294,7 @@
  * Page content
  */
 .page-content {
+    margin-left: $sidebar-width;
     padding-top: 70px;
     max-width: 100vw;
     overflow-x: hidden;
@@ -973,6 +978,30 @@
 .tech-col-m{
     border-left: 1px solid $brand-color;
     border-right: 1px solid $brand-color;
+}
+
+.home-puzzle{
+    text-align: center;
+    .home-puzzle-img {
+        margin-top: -85px;
+        width: 160px;
+    }
+}
+
+.home-box {
+    text-align: center;
+    height: 300px;
+    margin-top: 50px;
+    img{
+        width: 160px;   
+    }
+    h2{
+        color:$brand-color;
+        font-size: 28px;
+        width: 165px;
+        margin: auto;
+        margin-top: 20px;
+    }
 }
 
 @media(max-width: 800px){
