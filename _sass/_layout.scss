@@ -191,11 +191,18 @@ $sidebar-width: 120px;
     }
 }
 
-$banner-height: 360px;
+
+.tooltip_templates { display: none; }
+
+
+
 
 /**
  * Banner
  */
+
+$banner-height: 360px;
+
 #white{
     background-color: white;
     padding-top: 1px;
