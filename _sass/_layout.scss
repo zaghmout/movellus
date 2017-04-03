@@ -63,7 +63,8 @@ $sidebar-width: 120px;
     .nav-link {
         color: $text-color;
         line-height: $base-line-height;
-        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         text-decoration: none;
 
         transition: background-color .4s ease;
@@ -440,7 +441,7 @@ $banner-height: 360px;
     }
 
     .small-field{
-        width: 46%;
+        width: 45%;
         float: left;
 
         &:nth-child(2n){
@@ -1047,6 +1048,20 @@ $banner-height: 360px;
     }
 }
 
+// products page
+.products-wrapper{
+    margin: 0 auto;
+}
+
+.products-box{
+    border: 1px solid $brand-color;
+
+}
+
+.products-content{
+    margin: 0px 40px;
+}
+
 .video-row{
     .home-video{
         width: 750px;
@@ -1109,7 +1124,7 @@ header, .full-width {
 .products-wrap {
   width: 80%;
   max-width: 24em;
-  margin: 0 auto;
+  margin: 95px auto;
   padding: 0.25em 0.625em;
 }
 
