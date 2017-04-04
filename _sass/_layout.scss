@@ -1555,3 +1555,15 @@ $tooltip-bg-color: #B2A6C5;
         }
     }
 }
+
+@media( max-width: 800px ) {
+    .tech-boxes > .flexbox-container:first-child{
+        border-bottom: 0;
+    } 
+
+    .tech-boxes > .flexbox-container > div:first-child {
+        border-right: 0;
+    } 
+
+}
+

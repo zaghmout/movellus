@@ -1,11 +1,12 @@
-<svg width="130px" height="130px" viewBox="18 464 130 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg width="130px" height="130px" viewBox="8 454 130 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
     <desc>Created with Sketch.</desc>
     <defs>
         <polygon id="path-1" points="0 130 130 130 130 0 0 0"></polygon>
         <polygon id="path-3" points="0 130 130 130 130 0 0 0"></polygon>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(18.000000, 464.000000)">
+    <g id="products-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(8.000000, 454.000000)">
         <g id="Group-4" transform="translate(8.125000, 8.125000)" fill="#FFFFFF">
             <path d="M113.75,56.875 C113.75,88.2860875 88.2860875,113.75 56.875,113.75 C25.46375,113.75 0,88.2860875 0,56.875 C0,25.46375 25.46375,0 56.875,0 C88.2860875,0 113.75,25.46375 113.75,56.875" id="Fill-1"></path>
         </g>
@@ -25,7 +26,7 @@
             <path d="M87.6242412,85.1432563 C87.6242412,85.1432563 92.7358412,80.5358937 95.5249912,73.8642938 C98.3146287,67.1925313 97.7486412,60.1174437 97.7486412,60.1174437 L62.8028537,59.9666438 L87.6242412,85.1432563 Z" id="Fill-15" fill="#3F1F6E" mask="url(#mask-2)"></path>
         </g>
         <g id="Group-29">
-            <path d="M65,8.12547125 C33.58875,8.12547125 8.125,33.5892212 8.125,65.0001462 C8.125,96.4110712 33.58875,121.874496 65,121.874496 C96.410925,121.874496 121.875,96.4110712 121.875,65.0001462 C121.875,33.5892212 96.410925,8.12547125 65,8.12547125 Z" id="Stroke-18" stroke="#210438" stroke-width="6"></path>
+            <path d="M65,8.12547125 C33.58875,8.12547125 8.125,33.5892212 8.125,65.0001462 C8.125,96.4110712 33.58875,121.874496 65,121.874496 C96.410925,121.874496 121.875,96.4110712 121.875,65.0001462 C121.875,33.5892212 96.410925,8.12547125 65,8.12547125 Z" id="Stroke-18" stroke="#210438" stroke-width="3"></path>
             <mask id="mask-4" fill="white">
                 <use xlink:href="#path-3"></use>
             </mask>

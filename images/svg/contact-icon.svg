@@ -1,12 +1,12 @@
-<svg width="121px" height="121px" viewBox="27 1221 121 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="118px" height="118px" viewBox="19 1212 118 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Group-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(30.000000, 1224.000000)">
+    <g id="Group-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(20.000000, 1214.000000)">
         <g id="marker">
             <g id="Page-1">
                 <g id="marker">
-                    <ellipse id="Oval" stroke="#3F206E" stroke-width="6" cx="57.5785655" cy="57.2187624" rx="56.9443576" ry="56.9306931"></ellipse>
+                    <ellipse id="Oval" stroke="#3F206E" stroke-width="3" cx="57.5785655" cy="57.2187624" rx="56.9443576" ry="56.9306931"></ellipse>
                     <path d="M58.0214851,28.800099 C47.5052475,28.800099 39.0555941,37.1370297 39.0555941,47.3333168 C39.0555941,55.264901 50.4018812,75.9011386 55.5370297,84.8039604 C56.6141584,86.6633168 59.4288119,86.6633168 60.5059406,84.8039604 C65.6422277,75.9011386 76.9885149,55.264901 76.9885149,47.3333168 C76.9896535,37.1370297 68.54,28.800099 58.0214851,28.800099 L58.0214851,28.800099 L58.0214851,28.800099 Z" id="Shape" stroke="#3F206E" stroke-width="2" fill="#FFFFFF"></path>
                     <path d="M58.0214851,57.449901 C52.8043564,57.449901 48.580099,53.3224257 48.580099,48.2248515 C48.580099,43.125 52.8043564,38.9986634 58.0214851,38.9986634 C63.2420297,38.9986634 67.4651485,43.125 67.4651485,48.2248515 C67.4651485,53.3224257 63.2420297,57.449901 58.0214851,57.449901 L58.0214851,57.449901 L58.0214851,57.449901 Z" id="Shape" fill="#8C79A8"></path>
                 </g>
