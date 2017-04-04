@@ -228,7 +228,7 @@ $banner-height: 360px;
         position: fixed;
         width: 100vw;
         height: $banner-height;
-        background-image: url('/images/header-img.png');
+        background-image: url('/images/header-bg.png');
         @include blur(1px);
     }
 
@@ -428,8 +428,7 @@ $banner-height: 360px;
         border-radius: 3px;
         border: 1px $brand-color solid;
 
-        @include media-query(710px) {
-            width: 92vw !important;
+        @include media-query(900px) {
             max-width: 420px;
             float: none;
             margin: 10px 2vw !important;
@@ -445,7 +444,10 @@ $banner-height: 360px;
         float: left;
 
         &:nth-child(2n){
-            margin-left: $spacing-unit;
+            float: right;
+            @include media-query(900px) {
+                float: none;
+            }
         }
 
     }
@@ -897,6 +899,7 @@ $banner-height: 360px;
 }
 .tech-boxes{
     color: #fff;
+    margin: 0px 75px;
 }
 .flexbox-container {
     display: -ms-flex;
@@ -920,6 +923,7 @@ $banner-height: 360px;
 
 .tech-boxes > .flexbox-container > div:first-child {
     border-right: 1px solid $brand-color;
+    margin-right: 0px;
 } 
 
 .flexbox-container > div img{
@@ -1006,8 +1010,11 @@ $banner-height: 360px;
   margin-top: 40px;
 }
 .tech-col{
-    height: 150px;
+    height: 325px;
     text-align: center;
+    h1{
+        padding-top: 64px;
+    }
 }
 .tech-col-m{
     border-left: 1px solid $brand-color;
@@ -1055,11 +1062,33 @@ $banner-height: 360px;
 
 .products-box{
     border: 1px solid $brand-color;
-
+    border-radius: 4px;
+    text-align: center;
+    img,h3{
+        margin-top: 10px;
+    }
+    height: 150px;
+    margin-top: 20px;
+    &:hover{
+        border: 2px solid $brand-color;
+    }
 }
 
 .products-content{
     margin: 0px 40px;
+    h4{
+        color: #989898;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .softclk{
+        font-size: 35px;
+    }
+}
+
+.products-video{
+    height: 360px;
+    width: 640px;
 }
 
 .video-row{
@@ -1116,16 +1145,16 @@ header, .full-width {
 }
 .wrap {
   width: 80%;
-  max-width: 24em;
   margin: 0 auto;
   padding: 0.25em 0.625em;
 }
 
 .products-wrap {
-  width: 80%;
-  max-width: 24em;
   margin: 95px auto;
-  padding: 0.25em 0.625em;
+}
+
+#product-left{
+    width: inherit;
 }
 
 .history{
@@ -1152,27 +1181,32 @@ header, .full-width {
   background-image: url("/images/covers/optmized/tech-purple-min.png");
 }
 #investors{
-  background-image: url("/images/shutterstock-investors.jpg");
+  background-image: url("/images/invest-bg.png");
 }
 #board{
-  background-image: url("/images/board.jpg");
+  background-image: url("/images/board-bg.png");
 }
 
 //// technology applications boxes
 
 #tech-box-ai{
-  background-image: url("/images/shutterstock-ai.jpg");
+  background-image: url("/images/ai_bg.png");
 }
 #tech-box-iot{
-  background-image: url("/images/shutterstock-iot.jpg");
+  background-image: url("/images/iot_bg.png");
 }
 #tech-box-dc{
-  background-image: url("/images/shutterstock-data-center.jpg");
+  background-image: url("/images/dc_bg.png");
 }
 #tech-box-m{
-  background-image: url("/images/shutterstock-mobile.jpg");
+  background-image: url("/images/mb_bg.png");
 }
-
+#tech-box-m,#tech-box-dc,#tech-box-iot,#tech-box-ai{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .header-bg{
   color: white;
   background-color: $brand-color;
@@ -1230,6 +1264,177 @@ $tooltip-bg-color: #B2A6C5;
     left: 0px;
   }
 }
+
+.site-header-mobile{
+    display: none;
+    z-index: 3;
+    position: fixed;
+    width: 100vw;
+    height: inherit;
+    padding: 0 10px;
+    background-color: white;
+    // border-bottom: 1px solid $grey-color-light;
+    min-height: 70px;
+    font-family: $strong-font-family;
+    color: $brand-color;
+
+    font-size: $nav-font-size;
+    letter-spacing: $medium-kerning;
+
+    -webkit-box-shadow: 0px 0px 18px -2px #dedede;
+       -moz-box-shadow: 0px 0px 18px -2px #dedede;
+            box-shadow: 0px 0px 18px -2px #dedede;
+
+    .wrapper{
+        padding-right: 40px;
+    }
+
+    .site-title {
+        font-size: 26px;
+        line-height: 20px;
+        letter-spacing: -1px;
+        margin-bottom: 0;
+        float: left;
+        img{
+            margin: 0;
+            width: 200px;
+        }
+    }
+
+    .site-nav {
+        float: right;
+        margin-right: 18px;
+        line-height: 70px;
+
+        #nav-icon {
+            display: none;
+        }
+
+        .nav-link {
+            color: $text-color;
+            line-height: $base-line-height;
+            padding: 26px 10px 23px;
+            margin-left: -4px;
+            margin-right: -4px;
+            border-bottom: 4px solid white;
+
+            transition: border-bottom-color .4s ease;
+            -webkit-transition: border-bottom-color .4s ease;
+
+            text-align: center;
+
+            &:hover{
+                border-bottom-color: $brand-color;
+                text-decoration: none;
+                // padding-bottom: 24px;
+            }
+        }
+
+        @include media-query(835px) {
+            position: absolute;
+            top: 25px;
+            right: 20px;
+            background-color: #fafafa;
+            text-align: right;
+
+            #nav-icon {
+                width: 26px;
+                height: 26px;
+                float: right;
+                position: relative;
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+                -webkit-transition: .5s ease-in-out;
+                -moz-transition: .5s ease-in-out;
+                -o-transition: .5s ease-in-out;
+                transition: .5s ease-in-out;
+                cursor: pointer;
+
+                display: block !important;
+                span{
+                    display: block;
+                    position: absolute;
+                    height: 3px;
+                    width: 100%;
+                    background: $brand-color;
+                    border-radius: 5px;
+                    opacity: 1;
+                    left: 0;
+                    -webkit-transform: rotate(0deg);
+                    -moz-transform: rotate(0deg);
+                    -o-transform: rotate(0deg);
+                    transform: rotate(0deg);
+                    -webkit-transition: .25s ease-in-out;
+                    -moz-transition: .25s ease-in-out;
+                    -o-transition: .25s ease-in-out;
+                    transition: .25s ease-in-out;
+
+                    &:nth-child(1) {
+                      top: 0px;
+                    }
+
+                    &:nth-child(2) {
+                      top: 8px;
+                    }
+
+                    &:nth-child(3) {
+                      top: 16px;
+                    }
+                }
+
+                &.open {
+
+                    span:nth-child(1) {
+                      top: 5px;
+                      -webkit-transform: rotate(135deg);
+                      -moz-transform: rotate(135deg);
+                      -o-transform: rotate(135deg);
+                      transform: rotate(135deg);
+                    }
+                    
+                    span:nth-child(2) {
+                      opacity: 0;
+                      left: -60px;
+                    }
+
+                    span:nth-child(3) {
+                      top: 5px;
+                      -webkit-transform: rotate(-135deg);
+                      -moz-transform: rotate(-135deg);
+                      -o-transform: rotate(-135deg);
+                      transform: rotate(-135deg);
+                    }
+                }
+            }
+
+            .open + .trigger{
+                display: block;
+                padding-bottom: 5px;
+            }
+
+            .trigger {
+                clear: both;
+                display: none;
+            }
+
+            .page-link {
+                display: block;
+                padding: 5px 10px;
+            }
+            .nav-link{
+                display: block;
+                width: 80vw;
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    }
+
+
+}
+
 
 @media( max-width: 900px ) {
 
@@ -1291,6 +1496,22 @@ $tooltip-bg-color: #B2A6C5;
         // #line-four{
         //     margin-top: 190px;
         // }
+    }
+
+    .video-row .home-video{
+        width: 550px;
+        height: 300px;
+    }
+
+    .site-header{
+        display: none;
+    }
+    .site-header-mobile{
+        display: block;
+    }
+
+    .page-content{
+        margin-left: 0px;
     }
 }
 

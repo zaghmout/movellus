@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="92px" viewBox="0 0 91 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="products-page" transform="translate(-508.000000, -1098.000000)" stroke-width="4" stroke="#5F4784">
+            <g id="Group-6" transform="translate(-6.000000, -2.000000)">
+                <g id="Group" transform="translate(517.000000, 1103.000000)">
+                    <g id="Group-2">
+                        <polyline id="Stroke-52" points="49.6821034 6.78510536 42.9792668 0 36.2771026 6.78510536"></polyline>
+                        <path d="M42.8761062,1.34180473 L42.8821239,12.8301432" id="Stroke-53" stroke-linejoin="bevel"></path>
+                        <polyline id="Stroke-54" points="22.2856205 12.2076564 12.8091034 12.2076564 12.805068 21.8077851"></polyline>
+                        <path d="M13.7473391,13.1621361 L21.7643784,21.2821296" id="Stroke-55" stroke-linejoin="bevel"></path>
+                        <polyline id="Stroke-56" points="6.69543841 35.6684896 0 42.4605115 6.69543841 49.2456169"></polyline>
+                        <path d="M1.32429113,42.2757895 L12.6631556,42.245614" id="Stroke-57" stroke-linejoin="bevel"></path>
+                        <polyline id="Stroke-58" points="12.0484263 63.4244813 12.0524617 73.0246099 21.5289787 73.0246099"></polyline>
+                        <path d="M12.9906974,72.0701303 L21.0063915,63.9501367" id="Stroke-59" stroke-linejoin="bevel"></path>
+                        <polyline id="Stroke-60" points="62.602181 73.7923436 72.078698 73.7923436 72.0854237 64.1922149"></polyline>
+                        <path d="M71.1438251,72.8378639 L63.1200602,64.7178704" id="Stroke-61" stroke-linejoin="bevel"></path>
+                        <polyline id="Stroke-62" points="78.192363 50.3315104 84.8911643 43.5394885 78.192363 36.7543831"></polyline>
+                        <path d="M83.5662006,43 L72.2199378,43" id="Stroke-63" stroke-linejoin="bevel"></path>
+                        <polyline id="Stroke-64" points="35.2063706 79.2148946 41.9098798 86 48.6127165 79.2148946"></polyline>
+                        <path d="M41.3776991,84.6581953 L41.3716814,73.1698568" id="Stroke-65" stroke-linejoin="bevel"></path>
+                        <polyline id="Stroke-66" points="72.8387026 22.5755187 72.8387026 12.9753901 63.3621855 12.9753901"></polyline>
+                        <path d="M71.897104,13.9298697 L63.8800647,22.0498633" id="Stroke-67" stroke-linejoin="bevel"></path>
+                        <path d="M42.8264602,26.4035088 L56.9770796,34.4 L42.7354425,42.517193 L28.5840708,34.5282456 L42.8264602,26.4035088 Z M56.9770796,34.4 L57.1425664,50.634386 L42.900177,58.7666667 L42.7354425,42.517193 L56.9770796,34.4 Z M42.7354425,42.517193 L42.900177,58.7666667 L28.7457965,50.7701754 L28.5840708,34.5282456 L42.7354425,42.517193 Z" id="Stroke-50" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M68.5754425,43.052807 C68.5754425,57.2503509 56.9311947,68.7547368 42.5631858,68.7547368 C28.1959292,68.7547368 16.5486726,57.2503509 16.5486726,43.052807 C16.5486726,28.8552632 28.1959292,17.3508772 42.5631858,17.3508772 C56.9311947,17.3508772 68.5754425,28.8552632 68.5754425,43.052807 Z" id="Stroke-51" stroke-dasharray="3.993,3.993"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
