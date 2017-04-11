@@ -251,7 +251,6 @@ $banner-height: 360px;
 
         h1{
             text-shadow: 0 0 10px black;
-            font-size: 18px;
             margin-top: 20px !important;
             @include media-query(600px) {
                 font-size: 12px;
@@ -764,89 +763,7 @@ $banner-height: 360px;
 */
 .home{
     overflow-x: hidden;
-    .svg-icon{
-        width: 200px;
-        height: 200px;
-        &:not(#svg-movellus){
-            position: absolute;
-        }
-    }
-
-    #clock{
-      top: 685px;
-      left: 30px;
-    }
-
-    #chip{
-      top: 1640px;
-      left: 130px;
-    }
-
-    #battery{
-      top: 1175px;
-      left: 200px;
-    }
-
-    // #scalable{
-    //     top: 550px;
-    //     left: 145px;
-    // }
-
-    // #graph{
-    //     top: 1190px;
-    //     left: 260px;
-    // }
-
-    #shield{
-      margin: 0px auto;
-      position: absolute;
-      top: 2420px;
-      left: 190px;
-    }
-
-
-    #svg-movellus{
-        margin: -100px auto -20px;
-        display: block;
-        min-width: 200px;
-    }
-
-    #svg-chip{
-      top: 1550px;
-      left: 580px;
-    }
-
-    #svg-clock{
-        top: 600px;
-        left: 497px;
-    }
-
-    #svg-battery{
-      left: -35px;
-      top: 1080px;
-    }
-
-    #svg-shield{
-      left: 325px;
-      top: 2169px;
-    }
-
-    // #svg-master-line{
-    //     width: 80%;
-    //     height: 80%;
-    //     margin: 0 auto;
-    //     display: block;
-    // }
-
-    #line-one{
-        height: 2600px;
-        width: 850px;
-        margin: 18px auto;
-        background-image: url('/images/outlines/main-outline-c.svg');
-        background-repeat: no-repeat;
-        position: relative;
-    }
-
+ 
 }
 
 .icon-details{
@@ -867,7 +784,7 @@ $banner-height: 360px;
 .heading{
     margin: 120px auto;
     padding: 0 8px;
-    font-size: 40px !important;
+    font-size: 40px;
     line-height: 65px;
     .virtualanalog {
         font-size: 55px;
@@ -1062,7 +979,7 @@ $banner-height: 360px;
     img,h3{
         margin-top: 10px;
     }
-    height: 150px;
+    min-height: 150px;
     margin-top: 20px;
     &:hover{
         border: 2px solid $brand-color;
@@ -1081,13 +998,13 @@ $banner-height: 360px;
     }
 }
 
-.products-video{
+#products-video{
     height: 360px;
     width: 640px;
 }
 
 .video-row{
-    .home-video{
+    #home-video{
         width: 750px;
         height: 500px;
         margin: auto;
@@ -1433,122 +1350,142 @@ $tooltip-bg-color: #B2A6C5;
 
 @media( max-width: 900px ) {
 
-    .home{
-      // line 1
-      #line-one{
-        height: 2000px;
-        width: 304px;
-        background-image: url('/images/outlines/outline-mobile-c.svg');
-        margin: 0 auto;
+  .home{
+    #home-banner {
+      .vertical-align{
+        margin-top: 130px;
       }
 
-        .svg-icon{
-            width: 160px;
-            height: 160px;
-        }
-        .icon-details{
-            max-width: 280px;
-        }
+      .virtualanalog{
+        font-size: 35px;
+      }
 
-        #svg-movellus{
-            margin-bottom: -2px;
-            margin-top: -80px;
-        }
-        #svg-clock{
-            left: 70px;
-            top: 230px;
-        }
-        #clock{
-            left: 0;
-            top: 410px;
-        }
-        #svg-chip{
-            top: 705px;
-            left: 70px;
-        }
-        #chip{
-            top: 920px;
-            left: 10px;
-        }
+      .banner-bg{
+        height: 500px;
+      }
 
-        #svg-battery{
-            left: 70px;
-            top: 1150px;
-        }
-        #battery{
-            left: 10px;
-            top: 1340px;
-        }
-
-        #shield{
-          top: 1760px;
-          left: 10px;
-        }
-        #svg-shield{
-            left: 70px;
-            top: 1564px;
-        }
-        // #line-four{
-        //     margin-top: 190px;
-        // }
+      .heading{
+        font-size: 25px;
+      }
     }
 
-    .video-row .home-video{
-        width: 550px;
-        height: 300px;
+    #white{
+      margin-top: 400px;
     }
+  }
 
-    .site-header{
-        display: none;
-    }
-    .site-header-mobile{
-        display: block;
-    }
+  .wrap .heading{
+    line-height: 75px;
+    font-size: 41px;
+  }
 
-    .page-content{
-        margin-left: 0px;
-    }
-}
+  .video-row #home-video{    
+    height: 180px;
+    width: 300px;
+  }
+
+  .site-header{
+      display: none;
+  }
+  .site-header-mobile{
+      display: block;
+  }
+
+  .page-content{
+      margin-left: 0px;
+  }
+
+  #products-video{
+    height: 180px;
+    width: 300px;
+  }
+
+  #product-left{
+    margin-top: 95px;
+    margin-left: 0;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .products-wrap{
+    margin: 10px 10px;
+  }
+
+  .tech-boxes{
+    margin: 0;
+  }
 
 
+  .investors-links{
+    width: 100%;
+    padding: 0;
+    img{
+      padding: 20px 0 0 0;
+    }
+  }
 
-@media(max-width: 885px) {
-    #happened-wrapper{
-        margin-top: 50px;
 
-        #happened{
-            width: 100vw;
-            height: 150px;
-            position: relative;
-            overflow-y: hidden;
-            overflow-x: hidden;
-        }
+  .history{
+    img{
+      padding: 20px 0px;
+      width: 95%;
     }
-    #lines, #facts, #dates{
-        display: none;
-    }
+  }
 
-    #analog-waves{
-        position: absolute;
-        left: 50%;
-        height: 410px;
-        margin-left: -445px; /* half of the width */
-    }
-    .event-label{
-        display: inline;
-        letter-spacing: 1px !important;
-        color: #011022;
-        font-weight: bold;
-    }
+  #timeline{
+    margin-top: 25px;
+  }
 
-    #details{
-        padding-top: 40px;
-        margin: 0 auto 50px;
-        ul{
-            margin: 0 auto;
-            max-width: 300px;
-        }
-    }
+
+  .contact-content{
+    margin: 0px 20px;
+  }
+
+  #contact .heading{
+    margin-top: 150px;
+  }
+
+  #technology .heading{
+    margin-top: 150px;
+  }
+
+  #happened-wrapper{
+      margin-top: 50px;
+
+      #happened{
+          width: 100vw;
+          height: 150px;
+          position: relative;
+          overflow-y: hidden;
+          overflow-x: hidden;
+      }
+  }
+  #lines, #facts, #dates{
+      display: none;
+  }
+
+  #analog-waves{
+      position: absolute;
+      left: 50%;
+      height: 410px;
+      margin-left: -445px; /* half of the width */
+  }
+  .event-label{
+      display: inline;
+      letter-spacing: 1px !important;
+      color: #011022;
+      font-weight: bold;
+  }
+
+  #details{
+      padding-top: 40px;
+      margin: 0 auto 50px;
+      ul{
+          margin: 0 auto;
+          max-width: 300px;
+      }
+  }
 }
 
 @media( max-width: 800px ) {
