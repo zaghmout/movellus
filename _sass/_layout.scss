@@ -357,7 +357,7 @@ $banner-height: 360px;
         width: 300px;
         text-align: center;
         padding: $spacing-unit / 2;
-        font-size: 14px;
+        font-size: 12px;
 
         @include media-query(710px) {
             width: 92vw;
@@ -383,7 +383,6 @@ $banner-height: 360px;
     #contact-emails{
         font-size: 12px;
         text-align: left;
-        font-weight: 600;
         a{
             text-decoration: underline;
         }
