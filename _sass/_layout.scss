@@ -258,6 +258,11 @@ $banner-height: 360px;
             }
         }
     }
+
+    .heading {
+        font-size: 18px;
+        letter-spacing: 2.5px;
+    }
 }
 
 /**
@@ -384,9 +389,22 @@ $banner-height: 360px;
         font-size: 12px;
         text-align: left;
         a{
-            text-decoration: underline;
+            text-decoration: none;
         }
     }
+
+    .contact-cell{
+        text-align: center;
+        .contact-cell-inner-l{
+            display: inline-block;
+            text-align: left;
+        }
+        .contact-cell-inner-r{
+            display: inline-block;
+            text-align: right;
+        }
+    }
+
 }
 .center{
     max-width: 700px;
@@ -797,6 +815,10 @@ $banner-height: 360px;
     .virtualanalog {
         font-size: 55px;
         color: #fff;
+    }
+    p{
+        font-size: 15px;
+        letter-spacing: 2.5px;
     }
 
     @include media-query(800px) {
