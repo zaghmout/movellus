@@ -366,7 +366,7 @@ $banner-height: 360px;
 
         @include media-query(710px) {
             width: 92vw;
-            max-width: 200px;
+            max-width: 235px;
             float: none;
             margin: 0 auto;
             border: 0;
@@ -808,7 +808,7 @@ $banner-height: 360px;
 
 
 .heading{
-    margin: 120px auto;
+    margin: 75px auto;
     padding: 0 8px;
     font-size: 40px;
     line-height: 65px;
@@ -1087,7 +1087,7 @@ $banner-height: 360px;
 // SPA REDESIGN
 header, .full-width {
   background: #ccc;
-  height: 305px;
+  height: 250px;
 }
 .wrap {
   width: 80%;
@@ -1119,6 +1119,9 @@ header, .full-width {
 }
 #technology{
   background-image: url("/images/tech-banner.jpg");
+}
+#products-head{
+  background-image: url("/images/iot_bg.png");
 }
 #timeline{
   background-image: url("/images/covers/optmized/history-purple-min.png");
