@@ -836,8 +836,7 @@ $banner-height: 360px;
 // NEW TECH PAGE
 
 .tech-wrapper{
-    max-width: 800px;
-    margin: 0 auto;
+    margin: 0 50px;
 }
 .tech-boxes{
     color: #fff;
@@ -932,7 +931,7 @@ $banner-height: 360px;
     margin: 40px auto 20px;
     letter-spacing: 2px;
     font-size: larger;
-    font-size: 40px;
+    font-size: 38px;
     max-width: 580px;
 }
 .tlh-2{
@@ -1000,16 +999,22 @@ $banner-height: 360px;
 // products page
 .products-wrapper{
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 .products-box{
     border: 1px solid $brand-color;
     border-radius: 4px;
     text-align: center;
+    font-size: 12px;
+    margin: 10px;
     img,h3{
         margin-top: 10px;
     }
-    min-height: 150px;
+    img{
+        width: 50px;
+    }
+    min-height: 115px;
     margin-top: 20px;
     &:hover{
         border: 2px solid $brand-color;
@@ -1017,10 +1022,10 @@ $banner-height: 360px;
 }
 
 .products-content{
-    margin: 0px 40px;
+    margin: 10px 40px;
     h4{
         color: #989898;
-        font-size: 25px;
+        font-size: 18px;
         font-weight: 600;
     }
     .softclk{
@@ -1030,11 +1035,20 @@ $banner-height: 360px;
 
 .products-justify{
     text-align: justify;
+    font-size: 14px;
+    #products-tbl-img{
+        max-width: 625px;
+    }
 }
 
 #products-video{
-    height: 360px;
-    width: 640px;
+    height: 250px;
+    width: 400px;
+    margin: 0px auto;
+}
+
+.products-content > .flexbox-container{
+    align-items: initial;
 }
 
 .video-row{
@@ -1050,6 +1064,16 @@ $banner-height: 360px;
         }
     }
 }
+
+#methodology-wrapper{
+    margin-top: 40px;
+}
+
+#design-methodology{
+    max-width: 505px;
+}
+
+
 
 @media(max-width: 800px){
 
